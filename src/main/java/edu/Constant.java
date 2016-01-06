@@ -17,7 +17,7 @@ public class Constant {
     public static final String NAMETAILE = "_name.output";
     public static final String FEATURETAILE = "_feature.output";
 
-    public static final String CRFMODEL = "english-left3words/english-left3words-distsim.tagger";
+    public static final String CRFMODEL = "C:\\youngsu\\EntityLinkFinal\\english-left3words\\english-left3words-distsim.tagger";
     public static final String RSVMMODEL = "C:\\youngsu\\libsvm-3.20\\windows\\noInlinkModel";
 
 

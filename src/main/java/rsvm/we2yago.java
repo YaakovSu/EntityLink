@@ -28,7 +28,7 @@ public class we2yago {
             nameA = resultSet.getString("nameA");
             String relation = resultSet.getString("relation");
             nameB = resultSet.getString("nameB");
-            result.add(nameA + "\t" + relation + "\t" + nameB);
+            result.add(nameA + " " + relation + " " + nameB);
         }
 
         return result;
@@ -89,7 +89,7 @@ public class we2yago {
             nameA = resultSet.getString("nameA");
             String relation = resultSet.getString("relation");
             String nameB = resultSet.getString("nameB");
-            result.add(nameA + "\t" + relation + "\t" + nameB);
+            result.add(nameA + " " + relation + " " + nameB);
         }
 
         return result;
@@ -111,7 +111,7 @@ public class we2yago {
             String nameA = resultSet.getString("nameA");
             String relation = resultSet.getString("relation");
             String nameB = resultSet.getString("nameB");
-            result.add(nameA + "\t" + relation + "\t" + nameB);
+            result.add(nameA + " " + relation + " " + nameB);
         }
 
         return result;

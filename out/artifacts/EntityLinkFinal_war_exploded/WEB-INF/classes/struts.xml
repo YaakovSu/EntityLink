@@ -15,12 +15,12 @@
 
 
     <!--<package name="front" namespace="/" extends="struts-default">-->
-        <!--<action name="user" class="action.HelloAction">-->
-            <!--<result name="success">/index.jsp</result>-->
-        <!--</action>-->
+    <!--<action name="user" class="action.HelloAction">-->
+    <!--<result name="success">/index.jsp</result>-->
+    <!--</action>-->
     <!--</package>-->
 
-    <package name="default" extends ="json-default" >
+    <package name="default" extends="json-default">
         <action name="SearchAction" method="searchChineseMention" class="action.SearchAction">
             <result type="json">
                 <param name="includeProperties">

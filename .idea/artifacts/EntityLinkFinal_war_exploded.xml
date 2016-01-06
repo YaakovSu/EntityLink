@@ -11,6 +11,11 @@
           <element id="library" level="project" name="Struts 2-2.3.20.1" />
           <element id="library" level="project" name="struts2-json-plugin-2.3.8" />
           <element id="library" level="project" name="ansj_seg-2.0.7" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.37" />
+          <element id="library" level="project" name="Maven: edu.stanford.nlp:stanford-corenlp:3.3.0" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.0.1" />
+          <element id="library" level="project" name="Maven: org.ansj:ansj_seg:3.0" />
+          <element id="library" level="project" name="Maven: org.nlpcn:nlp-lang:1.0.2" />
         </element>
       </element>
     </root>
