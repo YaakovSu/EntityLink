@@ -13,4 +13,14 @@
             <result name="success">/index.jsp</result>
         </action>
     </package>
+    <package name="default" extends="json-default">
+        <action name="JsonAction" method="testByAction" class="action.JsonAction">
+            <result type="json">
+                <param name="includeProperties">totalCount,data.*</param>
+            </result>
+            <result name="dataMap" type="json">
+                <param name="includeProperties">success</param>
+            </result>
+        </action>
+    </package>
 </struts>

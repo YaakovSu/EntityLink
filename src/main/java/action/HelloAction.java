@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
  * Created by youngsu on 16-1-6.
  */
 public class HelloAction extends ActionSupport {
-    
+
     HttpServletRequest request = ServletActionContext.getRequest();
 
     public String hello() {
