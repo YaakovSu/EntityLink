@@ -14,17 +14,20 @@
     <constant name="struts.devMode" value="true"/>
 
 
-    <package name="front" namespace="/" extends="struts-default">
+    <!--<package name="front" namespace="/" extends="struts-default">-->
+        <!--<action name="user" class="action.HelloAction">-->
+            <!--<result name="success">/index.jsp</result>-->
+        <!--</action>-->
+    <!--</package>-->
 
-
-        <action name="user" class="action.HelloAction">
-
-            <result name="success">/index.jsp</result>
-
+    <package name="default" extends ="json-default" >
+        <action name="SearchAction" method="searchChineseMention" class="action.SearchAction">
+            <result type="json">
+                <param name="includeProperties">
+                    dataMap.*
+                </param>
+            </result>
         </action>
-
-
     </package>
-
 
 </struts>

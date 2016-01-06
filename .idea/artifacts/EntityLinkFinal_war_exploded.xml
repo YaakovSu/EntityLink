@@ -9,6 +9,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Struts 2-2.3.20.1" />
+          <element id="library" level="project" name="struts2-json-plugin-2.3.8" />
+          <element id="library" level="project" name="ansj_seg-2.0.7" />
         </element>
       </element>
     </root>
