@@ -1,0 +1,250 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>上网登录</title>
+<style>
+<!--
+html{
+	height:100%;
+	width:100%;
+	overflow-y:scroll;
+	border:0;
+	margin:0;
+	padding:0;} 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+a {text-decoration: none;}
+body {margin:0;padding:0;text-align:center; background-color: #f5f5f5;}
+.f1 { font-size: 12px; font-family:微软雅黑; line-height: 24px; color:#5F6468; font-weight:bold;}
+.input-border{font-family:微软雅黑;border:1px solid #b8b8b8;	width:287px; line-height:25px; font-size:16px; height:34px;}
+.con {width: 1000px; height:665px; margin-right: auto; margin-left: auto; background:#ffffff}
+.login {background-image: url('images/a01.png'); background-repeat: no-repeat; float: left;}
+.login .b_left {float: left;}
+.login .b_cernet {float: left;}
+.login .b_right {float: left;}
+.btn {
+background:url('images/a03.jpg') no-repeat left center;
+font-family:微软雅黑;
+height:38px;
+line-height:27px;
+width:130px;
+border:none;
+font-size:14px;
+font-weight:bold;
+color:#fff;
+}
+.btn1 {
+background:url('images/a03.jpg') no-repeat left center;
+font-family:微软雅黑;
+height:38px;
+line-height:27px;
+width:130px;
+border:none;
+font-size:14px;
+font-weight:bold;
+color:#fff;
+}
+
+.a_demo_two {
+	width:220px;
+	height:30px;
+	color:white;
+	font-weight:bold;
+	border: solid 1px red;
+	background-color:#EF0000;
+	}
+
+-->
+</style>
+<script language="javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/srun_portal.js"></script>
+</head>
+
+<body onselectstart="return false">
+<div class="con">
+<div class="login">
+<div class="b_left" style="width: 37px; height: 450px">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="415">
+<tbody>
+	<tr>
+		<td><p></p></td>
+	</tr>
+</tbody>
+</table>
+</div>
+<div class="b_cernet" style="width:546px;height:600px">
+<table border="0" width="100%" cellspacing="1" cellpadding="0" class="f1" id="id_login">
+<tbody>
+	<tr>
+		<td height="280" align="right" colspan="2">
+			
+		</td>
+	</tr>
+	<tr>
+		<form name="form1" method="post" action="http://10.9.27.18:8800/auto/login" target="__blank">
+		<input type="hidden" name="action" value="auto_login">
+		<input type="hidden" name="info" value="">
+		</form>
+		
+		<form name="form2" action="srun_portal_pc.php"  method="post" onsubmit="return check1(this)">
+		<input type="hidden" name="action" value="login">
+		<input type="hidden" name="ac_id" value="4">
+		<input type="hidden" name="user_ip" value="">
+		<input type="hidden" name="nas_ip" value="">
+		<input type="hidden" name="user_mac" value="">
+		<input type="hidden" name="url" value="" >
+		<input type="hidden" name="is_second" value="0" >
+
+		<td height="65" width="32%" align="right">用户名 (Username):</td>
+		<td height="65" width="67%">&nbsp;<input name="username" type="text" maxlength="26" class="input-border"></td>
+	</tr>
+	<tr>
+		<td height="65" width="32%" align="right">密　码&nbsp; (Password):</td>
+		<td height="65" width="67%">&nbsp;<input name="password" type="password" maxlength="20" class="input-border"></td>
+	</tr>
+	<tr>
+		<td height="65" width="32%"></td>
+		<td height="65" width="67%">
+		<p align="left">&nbsp;
+		<input type="submit" name="0MKKey" value="登 录 (Login)" class="btn">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+		<input type="button" name="" value="取 消 (Cancel)" onclick="reset();return false;" class="btn">
+		</p>
+		</td>
+	</form>
+	</tr>
+</tbody>
+</table>
+
+<table border="0" width="100%" cellspacing="1" cellpadding="0" class="f1" id="id_login_ok" style="display:none;">
+<tbody>
+	<tr>
+		<td height="280" align="right" colspan="2">
+			
+		</td>
+	</tr>
+	<tr>
+		<td height="65" colspan="2" align="center" style="color:grey;font-size:14px;">
+		<p>您已成功登录。</p>
+		<p>You have successfully logged into our system.</p>
+		</td>
+	</tr>
+	<tr>
+		<td height="30" colspan="2" align="center">
+		<p>
+			<span id="stack_msg" style="color:#444444;"></span>
+		</p>
+		</td>
+	</tr>	
+	<tr height="80">	
+		<td colspan="2" align="center">
+			<input type="button" class="btn" value="注销(Logout)" onclick="auto_logout()">
+		</td>
+	</tr>
+	<tr>
+		<td height="50" colspan="2" align="center">				
+		<span id="id_mac_auth" style="display:none">
+			<input type="button" class="btn" onclick="bind_mac_auth('58.198.176.98')" value="绑定终端(Bind)"></a>
+		</span>
+		</td>
+	</tr>
+</tbody>
+</table>
+
+<table>
+	<tr>
+		<td height="25" width="99%" colspan="2">
+		</td>
+	</tr>
+	
+	</tbody>
+	</table>
+
+</div>
+<div class="b_right" style="width: 350px; height: 130px">
+<table width="100%" height="100%">
+	<tr>
+		<td width="320">
+			<table width="100%" height="100%">
+				<tr>
+					<td width="230">
+					</td>
+					<td align="center" valign="bottom" style="font-size:13px;">
+						<a href="#" onclick="goto_service(document.form1);return false;" style="color:#666666;font-weight:bold;">自助服务<br/>&nbsp;&nbsp;&nbsp;Selfservice&nbsp&nbsp;&nbsp;</a>
+					</td>
+					<td valign="bottom" align="right">
+											</td>
+				</tr>
+			</table>
+			
+		</td>
+	</tr>
+</table>
+</div>
+<div class="" style="width: 1000px; height: 35px">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="100%" id="table2">
+	<tbody><tr>
+		<td align="center" valign="bottom" width="5%">　</td>
+		<td width="84%">
+			<table>
+				<tr height="35">
+					<td width="30"></td>
+					<td>
+						<p style="font-size:12px;color:#666666">
+						华东师范大学信息化办公室 版权所有 中国上海  200062  (86-21) 62233081
+						</p>
+					</td>
+				</tr>
+				<!--
+				<tr>
+					<td width="30"><img border="0" src="images/star.gif"></td>
+					<td>
+						<p style="font-size:12px;color:#666666">
+						<a target="_blank" href="http://www.e-office.ecnu.edu.cn/bras/old-cover.htm">
+						<font color="#0000FF">中山北路校区无线网络覆盖</font></a>
+						<a target="_blank" href="http://www.e-office.ecnu.edu.cn/bras/old-cover.htm"><font color="#0000FF">(North ZhongShan Road Campus wireless coverage).</font></a>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="30"><img border="0" src="images/star.gif"></td>
+					<td>
+						<p style="font-size:12px;color:#666666">
+						<a target="_blank" href="http://www.e-office.ecnu.edu.cn/bras/cover.htm">
+						<font color="#0000FF">闵行校区无线网络覆盖</font></a>
+						<a target="_blank" href="http://www.e-office.ecnu.edu.cn/bras/cover.htm"><font color="#0000FF">(Minhang Campus wireless coverage).</font></a>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="30"><img border="0" src="images/star.gif"></td>
+					<td>
+						<p style="font-size:12px;color:#666666">
+						<a target="_blank" href="http://norton.ecnu.edu.cn/"><font color="#0000FF">Norton杀毒软件下载(Norton anti-virus software download)</font></a>		
+						</p>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="11%" align="center">
+			
+		</td>
+	</tr>
+	-->
+</tbody></table>
+</div>
+</div>
+</div>
+<script language="javascript">
+stack_user_ip = '58.198.176.98';
+
+connect_test('[2001:da8:8005:4::18]');
+
+</script>
+
+</body></html>

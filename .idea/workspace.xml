@@ -6,21 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aacf1f8d-f37f-4aa9-b923-466fe59c1762" name="Default" comment="test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/Constant.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/Constant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Constant.class" afterPath="$PROJECT_DIR$/target/classes/edu/Constant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/nlp/FeatureParser.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/nlp/FeatureParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/nlp/FeatureParser.class" afterPath="$PROJECT_DIR$/target/classes/edu/nlp/FeatureParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/we2yago.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/we2yago.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/we2yago.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/we2yago.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/edu/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EntityLinkFinal.iml" afterPath="$PROJECT_DIR$/EntityLinkFinal.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/EntityLinkFinal_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/EntityLinkFinal_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/we2yago.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/we2yago.java" />
+    <list default="true" id="aacf1f8d-f37f-4aa9-b923-466fe59c1762" name="Default" comment="已经可以生成Json文件了，就差界面了">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EntityLinkFinal.iws" />
@@ -653,7 +639,7 @@
       <workItem from="1452078416791" duration="1306000" />
       <workItem from="1452080056257" duration="657000" />
       <workItem from="1452081487292" duration="5989000" />
-      <workItem from="1452088866891" duration="2242000" />
+      <workItem from="1452088866891" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="终于在git上建web了">
       <created>1452080202302</created>
@@ -667,14 +653,20 @@
       <option name="project" value="LOCAL" />
       <updated>1452087405894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="已经可以生成Json文件了，就差界面了">
+      <created>1452091160629</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1452091160629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10436000" />
+    <option name="totallyTimeSpent" value="10505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -720,7 +712,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="终于在git上建web了" />
     <MESSAGE value="应该是可以将数据转为Json数据传到服务器了" />
-    <option name="LAST_COMMIT_MESSAGE" value="应该是可以将数据转为Json数据传到服务器了" />
+    <MESSAGE value="已经可以生成Json文件了，就差界面了" />
+    <option name="LAST_COMMIT_MESSAGE" value="已经可以生成Json文件了，就差界面了" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
