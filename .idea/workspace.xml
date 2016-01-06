@@ -696,7 +696,7 @@
       <workItem from="1452078146745" duration="242000" />
       <workItem from="1452078416791" duration="1306000" />
       <workItem from="1452080056257" duration="657000" />
-      <workItem from="1452081487292" duration="141000" />
+      <workItem from="1452081487292" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="终于在git上建web了">
       <created>1452080202302</created>
@@ -708,7 +708,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2346000" />
+    <option name="totallyTimeSpent" value="2376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
