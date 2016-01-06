@@ -1,11 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="EntityLinkFinal:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="EntityLinkFinal:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="EntityLinkFinal/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="EntityLinkFinal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
         </element>
       </element>
     </root>
