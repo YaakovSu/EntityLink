@@ -5,29 +5,26 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-        <!-- 支持动态调用 -->
+    <!-- 支持动态调用 -->
 
-        <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
 
-        <!-- 设置开发模式 -->
+    <!-- 设置开发模式 -->
 
-        <constant name="struts.devMode" value="true"/>
-
-
-
-        <package name="front" namespace="/" extends="struts-default">
+    <constant name="struts.devMode" value="true"/>
 
 
-
-                <action name="user" class="action.HelloAction">
-
-                        <result name="success">/index.jsp</result>
-
-                </action>
+    <package name="front" namespace="/" extends="struts-default">
 
 
+        <action name="user" class="action.HelloAction">
 
-        </package>
+            <result name="success">/index.jsp</result>
+
+        </action>
+
+
+    </package>
 
 
 </struts>
