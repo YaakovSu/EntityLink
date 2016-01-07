@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
+import java.util.*;
 
 import static edu.nlp.Rank.rankTitles;
 
@@ -23,7 +23,7 @@ import static edu.nlp.Rank.rankTitles;
 /**
  * Created by youngsu on 14-10-29.
  */
-public class qc2wc {
+public class qc2wc{
     //name 为file中要查看候选
     public ArrayList<String> createCandidate_wc(String fileContent, String name) throws SQLException {
         fileContent = fileContent.replaceAll("\\d+", "");
@@ -137,21 +137,29 @@ public class qc2wc {
     }
 
 
-    public String writeOneNameSVMtrainningData(String name, String filecontent, ECDic E_CDic) throws SQLException, IOException, ClassNotFoundException {
+    public TreeMap<String,String> writeOneNameSVMtrainningData(String name, String filecontent, ECDic E_CDic) throws SQLException, IOException, ClassNotFoundException {
 
         long timeTestStart = System.currentTimeMillis();
         boolean pre_inDic = MDicContain(name);
+        TreeMap<String, String> enNames = new TreeMap<String, String>();
         if (pre_inDic) {
             String outputPath = Constant.QCWEinKCL + name + Constant.NAMETAILE;
             String enName = getEnNameInMDic(name);
             printenName(enName, outputPath);
-            return enName;
+            enNames.put(name,enName);
+            return enNames;
         }
         ArrayList<String> results = createCandidate_wc(filecontent, name);
+
+        for (String chinese : results) {
+            enNames.put(chinese, "");
+        }
+
 //        因为我把rank改掉了，所以这里的result有score信息在。
         System.out.println(results);
         boolean inDic = false;
         if (results.size() > 0) {
+
             for (int i = 0; i < results.size(); i++) {
                 String zhWikiTitle = results.get(i).split("\t")[0];
                 inDic = MDicContain(zhWikiTitle);
@@ -159,11 +167,11 @@ public class qc2wc {
                     String outputPath = Constant.QCWEinKCL + zhWikiTitle + Constant.NAMETAILE;
                     String enName = getEnNameInMDic(zhWikiTitle);
                     printenName(enName, outputPath);
-                    return enName;
+                    enNames.put(zhWikiTitle,enName);
+//                    return enName;
                 }
-            }
-            if (!inDic) {
-                for (int i = 0; i < results.size(); i++) {
+                if (!inDic) {
+//                    for (int i = 0; i < results.size(); i++) {
                     String result = results.get(i).split("\t")[0];
                     if (!result.equals("查无此词")) {
 
@@ -171,17 +179,31 @@ public class qc2wc {
                         String output1 = Constant.QCWE_NAME + name + "_" + i + Constant.NAMETAILE;
                         String output2 = Constant.QCWE_FEATURE + name + "_" + i + Constant.FEATURETAILE;
 
-                        String enName = f2.myFangAn(result, output1, output2, E_CDic, name);
-                        return enName;
+                         f2.myFangAn(result, output1, output2, E_CDic, name);
+//                        return enName;
 
                     }
+//                    }
                 }
             }
+            String DirPath = Constant.QCWE_FEATURE;
+            for (int i = 0; i < results.size(); i++) {
+                String result = results.get(i).split("\t")[0];
+                SVMPredict(DirPath);
+                String enName = writeSVMZhengQueNames(name, i);
+                System.out.println("gaga" + result + " " + enName);
+                if(!enName.equals("eeror")){
+                    enNames.put(result, enName);
+                }
+
+            }
+
         }
         long timeTestEnd = System.currentTimeMillis();
         System.out.println("运行时间是" + (timeTestEnd - timeTestStart));
-        return "";
+        return enNames;
     }
+
 
     private String getEnNameInMDic(String zhWikiTitle) {
 
@@ -222,6 +244,132 @@ public class qc2wc {
         fw.write(enName + "\n");
         fw.flush();
         fw.close();
+    }
+
+
+    //将文件夹下的所有feature文件用svm训练，生成相对应的预测结果集，（需要在写一个函数，将这些预测候选结果集合中的正例选出来，并与他们的名称相融合，便于标注数据）
+    public static void SVMPredict(String Dir) throws IOException {
+
+        TreeMap<String, String> filesPath = Myutil.readfileInDic(Dir);  //key为全路径，value为file的名字
+        Iterator<String> iterator = filesPath.keySet().iterator();
+        while (iterator.hasNext()) {
+
+            String absolutPath = iterator.next();
+            String filename = filesPath.get(absolutPath);
+            String input = absolutPath;
+            String[] file = filename.split("_feature");
+            System.out.println(filename);
+            String file_pre = file[0];
+            String file_after = file[1];
+            filename = file_pre + "_name" + file_after;
+//            String output = "C:\\youngsu\\PracticedMyHands\\Project_EntityLinking\\output\\QC_WE\\test_result\\" + filename;
+            String output = Constant.QCWE_PREDICT + filename;
+
+            String cmd2 = "svm_rank_classify " + input + " " + Constant.RSVMMODEL + " " + output;
+            System.out.println(cmd2);
+            try {
+                Runtime.getRuntime().exec(cmd2);
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static String writeSVMZhengQueNames(String inputName,int i) throws IOException {
+        String outputPath = Constant.QCWE_PREDICTNAME;
+        String namePath = Constant.QCWE_NAME;
+        String predictPath = Constant.QCWE_PREDICT;
+
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        TreeMap<String, String> nameFilesPath = Myutil.readfileInDic(namePath);  //key为全路径，value为file的名字
+        TreeMap<String, String> predicFilesPath = Myutil.readfileInDic(predictPath);  //key为全路径，value为file的名字
+
+        System.out.println("eds" + nameFilesPath);
+        Iterator<String> iteratorName = nameFilesPath.keySet().iterator();
+        while (iteratorName.hasNext()) {
+            String absolutPath = iteratorName.next();//文件的全路径
+            String filename = nameFilesPath.get(absolutPath); //文件的名字
+
+            int count = 0;
+            while (!predicFilesPath.containsValue(inputName + "_"+i+ Constant.NAMETAILE)) {
+                count++;
+                predicFilesPath = Myutil.readfileInDic(predictPath);
+                System.out.println("pp "+inputName + "_"+i+ Constant.NAMETAILE);
+                System.out.println("2345" + predicFilesPath);
+                if(count>100){
+                    break;
+                }
+            }
+
+            Iterator<String> iteratorPredict = predicFilesPath.keySet().iterator();
+            System.out.println("444" + predicFilesPath);
+            while (iteratorPredict.hasNext()) {
+                String abPath = iteratorPredict.next();
+                String fname = predicFilesPath.get(abPath);
+                System.out.println("111" + filename);
+                System.out.println("222" + inputName);
+                System.out.println("333" + fname);
+                if (filename.equals(fname) && filename.split("_"+i+"_")[0].equals(inputName)) { //如果两个文件夹下的文件名字相同
+                    String output = outputPath + fname;
+                    ArrayList<String> namefileWords = Myutil.readByLine(absolutPath);
+                    ArrayList<String> predictfileWords = Myutil.readByLine(abPath);
+
+                    String result = writeFirstOneFileResult(namefileWords, predictfileWords);
+                    return result;
+                }
+            }
+        }
+        return "eeror";
+
+    }
+
+    private static String writeFirstOneFileResult(ArrayList<String> namefileWords, ArrayList<String> predictfileWords) throws IOException {
+
+        ArrayList<Double> predictScore = new ArrayList<Double>();
+        for (String predictWord : predictfileWords) {
+            double score = Double.parseDouble(predictWord);
+            predictScore.add(score);
+        }
+        HashMap<String, Double> input = new HashMap<String, Double>();
+        for (int i = 0; i < namefileWords.size(); i++) {
+            String key = namefileWords.get(i);
+            double value = predictScore.get(i);
+            input.put(key, value);
+        }
+
+
+        List<Map.Entry<String, Double>> result = sort(input);
+        if (result.size() > 0) {
+            return result.get(0).getKey().toString();
+        } else {
+            return "error";
+        }
+    }
+    private static List<Map.Entry<String, Double>> sort(Map<String, Double> map_Data) {
+
+        List<Map.Entry<String, Double>> list_Data = new ArrayList<Map.Entry<String, Double>>(map_Data.entrySet());
+        System.out.println(list_Data.size());
+        System.setProperty("java.edu.util.Arrays.useLegacyMergeSort", "true");
+        Collections.sort(list_Data, new Comparator<Map.Entry<String, Double>>() {
+            public int compare(Map.Entry<String, Double> o1, Map.Entry<String, Double> o2) {
+                if (o2.getValue() != null && o1.getValue() != null && o2.getValue().compareTo(o1.getValue()) > 0) {
+                    return 1;
+                } else {
+                    return -1;
+                }
+
+            }
+        });
+
+        System.out.println(list_Data);
+        return list_Data;
+
     }
 
 }

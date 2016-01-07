@@ -1,8 +1,10 @@
 package rsvm;
 
+import edu.Constant;
 import edu.baike.Yago;
 import edu.nlp.ECDic;
 import edu.util.Contant;
+import edu.util.Myutil;
 import edu.util.opMysql;
 
 import java.io.IOException;
@@ -19,18 +21,33 @@ public class SearchDriver {
 //        String filecontent = "蒋中正受孙中山赏识而崛起於民国政坛，在孙去世后长期领导中国国民党达半世纪；其於国民政府时代一直居於军政核心，领导中国渡过对日抗战与二次大战，行宪后又连续担任第一至五任中华民国总统长达27年，但其政治手腕与独裁统治亦遭受批评。其从政生涯横跨北伐、训政、国共内战、对日抗战、行宪、民国政府退守台湾及东西方冷战，在中国近代史上有重要地位。";
 
         String name = "人民大学";
-        String filecontent = "北京 学校";
+        String filecontent = "北京";
 
         SearchDriver search = new SearchDriver();
         //查询对应的英文词
-        String enName = search.searchEnWords(name, filecontent);
+//        String enName = search.searchEnWords(name, filecontent);
+        TreeMap<String,String> enNames = search.searchEnWords(name,filecontent);
+        ArrayList<Yago> yagos = new ArrayList<Yago>();
         //寻找对应的YAGO子图
-        search.getYagoGraph(enName);
+        Iterator<String> iterator = enNames.keySet().iterator();
+        while (iterator.hasNext()){
+            String zhName = iterator.next();
+            String enName = enNames.get(zhName);
+            System.out.println(enName);
+            Yago yago = search.getYagoGraph(enName);
+            yagos.add(yago);
+        }
+        Myutil.deleteFile(Constant.QCWE_PREDICT);
+        Myutil.deleteFile(Constant.QCWE_FEATURE);
+        Myutil.deleteFile(Constant.QCWE_NAME);
+
+
 
 
     }
 
     public Yago getYagoGraph(String enName) throws SQLException {
+
         Yago yago = new Yago();
         we2yago we2YagoFact = new we2yago(opMysql.connSQL(Contant.yagomysqlurl));
         ArrayList<String> testResult = we2YagoFact.getAllAssociateNameRelation(enName, Contant.yagofacts);
@@ -57,14 +74,15 @@ public class SearchDriver {
         return yago;
     }
 
-    public String searchEnWords(String wordName, String Context) throws SQLException, IOException, ClassNotFoundException {
+    public TreeMap<String,String> searchEnWords(String wordName, String Context) throws SQLException, IOException, ClassNotFoundException {
         qc2wc cw = new qc2wc();
         ECDic ecDic = new ECDic(Contant.E_CdicPath);
 
         //查询对应英文词
-        String enName = cw.writeOneNameSVMtrainningData(wordName, Context, ecDic);
-        System.out.println(enName);
-        return enName;
+        TreeMap<String,String> zh_enNames = cw.writeOneNameSVMtrainningData(wordName, Context, ecDic);
+
+//        System.out.println(enName);
+        return zh_enNames;
 
 
     }

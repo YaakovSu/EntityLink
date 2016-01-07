@@ -32,7 +32,7 @@ public class Contant {
     public static final String combin_disambigation_redirectOutput_Path = "C:\\youngsu\\EntityLinkingGitData\\data\\Combin_disambigation_redirect.output";
 
     public static final int SetingKeyWords = 25; //选取多少个关键词加入到BOW中
-    public static final int CandidatePageNum = 1; //选取多少个维基页面作为候选
+    public static final int CandidatePageNum = 3; //选取多少个维基页面作为候选
     public static final double initVector = 0.0001; //初始vector的值
 
 

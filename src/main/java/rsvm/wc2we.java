@@ -104,12 +104,9 @@ public class wc2we {
              * 8.29添加针对单个查询词的操作
              */
 //            String DirPath = "C:\\youngsu\\PracticedMyHands\\Project_EntityLinking\\output\\QC_WE\\test_pre\\feature";
-            String DirPath = Constant.QCWE_FEATURE;
-            SVMPredict(DirPath);
-            String result = writeSVMZhengQueNames(inputName);
-            System.out.println("gaga" + result);
-            return result;
+
         }
+        return "";
     }
 
     private ArrayList<String> getEnInLinkPageName(List<KCLpair> kcLin) {
