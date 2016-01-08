@@ -4,10 +4,12 @@ import com.opensymphony.xwork2.ActionSupport;
 import edu.Constant;
 import edu.baike.Yago;
 import edu.util.Myutil;
+import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;
 import rsvm.SearchDriver;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
 /**
@@ -20,8 +22,23 @@ public class SearchAction extends ActionSupport {
     public String searchChineseMention() throws Exception {
         dataMap.clear();
 
-        String name = "人民大学";
-        String filecontent = "北京";
+//        String name = "人民大学";
+//        String filecontent = "北京";
+        HttpServletRequest request = ServletActionContext.getRequest();
+        String query = request.getParameter("q");
+        query = new String(query.getBytes("ISO-8859-1"), "UTF-8");
+        System.out.println(query);
+        String[] line = query.split("\\|\\|");
+        String name = "";
+        String filecontent = "";
+        if(line.length<2){
+            name = line[0];
+        }else {
+            name = line[0];
+            filecontent = line[1];
+        }
+        System.out.println("name: "+name);
+        System.out.println("context: "+filecontent);
 
         SearchDriver search = new SearchDriver();
 

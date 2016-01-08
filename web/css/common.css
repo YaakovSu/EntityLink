@@ -1,0 +1,226 @@
+﻿/*
+ * ConfigMaster common css library
+ * http://ConfigMaster/
+ *
+ * Copyright 2014 Microsoft Corporation
+ *
+ * Date: 2014-08-24T23:03Z
+ */
+
+* {
+    font-family: wf_segoe-ui_normal, "Segoe UI", Segoe, "Segoe WP", Tahoma, Verdana, Arial, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+form, fieldset, legend, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+}
+
+.err {
+    color: #cf0023;
+}
+
+.search-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: inline-block;
+    font-size: 17px;
+    height: 31px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    vertical-align: middle;
+    width: 80%;
+}
+
+#top-search .search-input {
+    width: 65%;
+}
+
+.search-input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+.search-btn {
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333;
+    font-size: 18px;
+    margin-left: 5px;
+    line-height: 20px;
+    padding: 5px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.search-btn:hover, #search-btn:focus {
+    background-position: 0 -15px;
+    transition: background-position 0.1s linear 0s;
+    background: #e6e6e6;
+}
+
+.search-btn:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+
+.search-btn:active {
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+
+.search-btn img {
+    display: none;
+}
+
+.search-btn.loading {
+    background: #e6e6e6;
+}
+
+.search-btn.loading img {
+    display: inline;
+}
+
+.search-btn.loading span {
+    display: none;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+
+a {
+    color: #08c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+    margin: 10px 0;
+    width: 44%;
+}
+
+#foot {
+    margin: 5% auto;
+    width: 1170px;
+    /*固定在页面底部*/
+}
+
+.logo {
+    float: left;
+}
+
+.header_bg {
+    background: none repeat scroll 0 0 #76c7c0;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.menu {
+    
+    /*float:right;*/
+}
+
+nav {
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+}
+
+.menu li a {
+    font-family: 'Microsoft YaHei';
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0s;
+    background: none repeat scroll 0 0 #69AAAA;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.menu li.activate a, .menu li a:hover {
+    background: #62A29E;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px #47817E;
+}
+
+.menu li:first-child {
+    margin-left: 40px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background: none repeat scroll 0 0 #62A29E;
+    border-left: 3px solid #62A2BE;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    border-radius: 3px;
+}
+
+.sub-menu li:first-child {
+    margin-left: 0;
+}
+
+.sub-menu li a {
+    font-size: 15px;
+}
+
+.sub-menu li a:hover {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #797979;
+}
+
+.footer1_bg {
+    background: none repeat scroll 0 0 #6ab3ac;
+    padding: 30px 0;
+    /*position:fixed;*/
+    bottom: 0;
+    width: 100%;
+    /* margin-top:500px;*/
+    /*bottom:0;
+    position:absolute;*/
+}
+
+.copy {
+    margin: 0 auto;
+    width: 231px;
+    font-family: 'Microsoft YaHei';
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+

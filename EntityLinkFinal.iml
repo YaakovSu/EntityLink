@@ -69,5 +69,6 @@
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-json-plugin:2.3.4" level="project" />
+    <orderEntry type="library" name="org.webjars:jquery:2.1.4" level="project" />
   </component>
 </module>

@@ -16,6 +16,7 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.0.1" />
           <element id="library" level="project" name="Maven: org.ansj:ansj_seg:3.0" />
           <element id="library" level="project" name="Maven: org.nlpcn:nlp-lang:1.0.2" />
+          <element id="library" level="project" name="org.webjars:jquery:2.1.4" />
         </element>
       </element>
     </root>
