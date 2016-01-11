@@ -6,9 +6,26 @@ import java.util.ArrayList;
  * Created by youngsu on 16-1-6.
  */
 public class Yago {
+    private String name,text;
     private ArrayList<String> type,result,wikiInfo;
 
     public Yago() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
     }
 
     public ArrayList<String> getType() {

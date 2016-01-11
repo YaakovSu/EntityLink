@@ -46,12 +46,15 @@ public class SearchAction extends ActionSupport {
         ArrayList<Yago> yagos = new ArrayList<Yago>();
         //寻找对应的YAGO子图
         Iterator<String> iterator = enNames.keySet().iterator();
+        int count = 0;
         while (iterator.hasNext()){
             String zhName = iterator.next();
             String enName = enNames.get(zhName);
             System.out.println(enName);
             Yago yago = search.getYagoGraph(enName);
-            dataMap.put(enName, yago);
+            String key = "yago"+count;
+            dataMap.put(key, yago);
+            count++;
             yagos.add(yago);
         }
         Myutil.deleteFile(Constant.QCWE_PREDICT);

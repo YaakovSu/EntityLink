@@ -157,18 +157,66 @@
             }
             this.$container.html(html);
         },*/
-        renderList: function (type) {
+        renderList: function () {
 
             //var List = CM.search.data.qrfd.contentList;
-            var List = CM.search.data.dataMap.Renmin_University_of_China.wikiInfo;
+            var List0 = CM.search.data.dataMap.yago0;
+            var List1 = CM.search.data.dataMap.yago1;
+            var List2 = CM.search.data.dataMap.yago2;
             var html = '<div id="sum">当前共有'+CM.search.indexCount+'条搜索结果</div>';
-            if (type == 0) {
-                for (var i = 0; i < List.length; i++) { //第二层循环取list中的对象
+            //if (type == 0) {                                    //第二层循环取list中的对象
+                var yagoName = List0.name;
+                var yagoText = List0.text;
+                var yagoWikiInfo = List0.wikiInfo;
+                html += '<div class="result-item"><div id="title"><a href="' + List0[0] + '" target="_blank">' + yagoName + '</a></div><div class="resource">内容：' + yagoText + '</div>';
+                for(var j=0;j<yagoWikiInfo.length;j++){
                     var excerpt = null;
-                    excerpt = List[i];
-                    html += '<div class="result-item"><div id="title"><a href="' + List[i] + '" target="_blank">' + List[i] + '</a></div><div class="resource">引自：' + List[i] + '</div><div class="excerpt">摘要：<span>' + excerpt + '.....</span></div><hr />';
+                    excerpt = List0[0];
+                    html += '<div class="result-item"><div id="title"><a href="' + List0[0] + '" target="_blank">' + yagoWikiInfo[j] + '</a></div><hr />';
+                }
+                if(typeof(List1) != "undefined"){
+                    yagoName = List1.name;
+                    if(yagoName!=""){
+                        html += '<div class="result-item"><div id="title">' + "**********************************候选2********************************" + '</div><hr />';
+                        yagoText = List1.text;
+                        yagoWikiInfo = List1.wikiInfo;
+                        html += '<div class="result-item"><div id="title"><a href="' + List1[0] + '" target="_blank">' + yagoName + '</a></div><div class="resource">内容：' + yagoText + '</div>';
+                        for(var j=0;j<yagoWikiInfo.length;j++){
+                            var excerpt = null;
+                            excerpt = List1[0];
+                            html += '<div class="result-item"><div id="title"><a href="' + List1[0] + '" target="_blank">' + yagoWikiInfo[j] + '</a></div><hr />';
+                        }
+                    }
 
                 }
+                if(typeof(List2) != "undefined"){
+                    yagoName = List2.name;
+                    if(yagoName!=""){
+                        html += '<div class="result-item"><div id="title">' + "**********************************候选3********************************" + '</div><hr />';
+                        yagoText = List2.text;
+                        yagoWikiInfo = List2.wikiInfo;
+                        html += '<div class="result-item"><div id="title"><a href="' + List2[0] + '" target="_blank">' + yagoName + '</a></div><div class="resource">内容：' + yagoText + '</div>';
+                        for(var j=0;j<yagoWikiInfo.length;j++){
+                            var excerpt = null;
+                            excerpt = List2[0];
+                            html += '<div class="result-item"><div id="title"><a href="' + List2[0] + '" target="_blank">' + yagoWikiInfo[j] + '</a></div><hr />';
+                        }
+                    }
+
+
+                }
+
+
+
+
+
+                        //var excerpt = null;
+                        // excerpt = List[i];
+                        // html += '<div class="result-item"><div id="title"><a href="' + List[i] + '" target="_blank">' + List[i] + '</a></div><div class="resource">引自：' + List[i] + '</div><div class="excerpt">摘要：<span>' + excerpt + '.....</span></div><hr />';
+
+
+
+
 
 
                 //for (var i = 0; i < List.length; i++) { //第二层循环取list中的对象
@@ -182,19 +230,19 @@
                 //        html += '<div class="result-item"><div id="title"><a href="' + List[i].url + '" target="_blank">' + List[i].title + '</a></div><div class="resource">引自：' + List[i].plate + '日期：' + List[i].date + '</div><div class="excerpt">摘要：<span>' + excerpt + '.....</span></div><hr />';
                 //    }
                 //}
-            }
-            else {
-                for (var i = 0; i < List.length; i++) { //第二层循环取list中的对象
-                    var excerpt = null;
-                    excerpt = List[i];
-                    if (List[i].time == null) {
-                        html += '<div class="result-item"><div id="title"><a href="' + List[i] + '" target="_blank">' + List[i] + '</a></div><div class="resource">来源：' + List[i] + '</div></div><hr />';
-                    }
-                    else {
-                        html += '<div class="result-item"><div id="title"><a href="' + List[i] + '" target="_blank">' + List[i] + '</a></div><div class="resource">来源：' + List[i] + '</div><div class="date">日期：<span>' + List[i] + '<div class="excerpt">摘要：<span>' + excerpt + '.....</span></div><hr />';
-                    }
-                }
-            }
+            //}
+            //else {
+            //    for (var i = 0; i < List.length; i++) { //第二层循环取list中的对象
+            //        var excerpt = null;
+            //        excerpt = List[i];
+            //        if (List[i].time == null) {
+            //            html += '<div class="result-item"><div id="title"><a href="' + List[i] + '" target="_blank">' + List[i] + '</a></div><div class="resource">来源：' + List[i] + '</div></div><hr />';
+            //        }
+            //        else {
+            //            html += '<div class="result-item"><div id="title"><a href="' + List[i] + '" target="_blank">' + List[i] + '</a></div><div class="resource">来源：' + List[i] + '</div><div class="date">日期：<span>' + List[i] + '<div class="excerpt">摘要：<span>' + excerpt + '.....</span></div><hr />';
+            //        }
+            //    }
+            //}
             this.$container.html(html);
         },
         refresh: function () {
@@ -334,7 +382,7 @@
                             CM.content.refresh();
                             CM.pager.renderPager(me.pageNumber, me.pageCount);
                             //CM.resultList.renderList(data.contentList);
-                            CM.resultList.renderList(type);
+                            CM.resultList.renderList();
                         }
                     },
                     error: function () {

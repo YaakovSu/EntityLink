@@ -1,6 +1,7 @@
 package rsvm;
 
 import edu.Constant;
+import edu.Language;
 import edu.baike.Yago;
 import edu.nlp.ECDic;
 import edu.util.Contant;
@@ -8,6 +9,8 @@ import edu.util.Myutil;
 import edu.util.opMysql;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
@@ -26,7 +29,7 @@ public class SearchDriver {
         SearchDriver search = new SearchDriver();
         //查询对应的英文词
 //        String enName = search.searchEnWords(name, filecontent);
-        TreeMap<String,String> enNames = search.searchEnWords(name,filecontent);
+        TreeMap<String,String> enNames = search.searchEnWords(name, filecontent);
         ArrayList<Yago> yagos = new ArrayList<Yago>();
         //寻找对应的YAGO子图
         Iterator<String> iterator = enNames.keySet().iterator();
@@ -47,13 +50,17 @@ public class SearchDriver {
     }
 
     public Yago getYagoGraph(String enName) throws SQLException {
-
+        Connection conn = opMysql.connSQL(Contant.enmysqlurl);
         Yago yago = new Yago();
+        yago.setName(enName);
+
         we2yago we2YagoFact = new we2yago(opMysql.connSQL(Contant.yagomysqlurl));
         ArrayList<String> testResult = we2YagoFact.getAllAssociateNameRelation(enName, Contant.yagofacts);
         ArrayList<String> testType = we2YagoFact.getAllNameBandRelations(enName, Contant.yagotypes);
         ArrayList<String> testWikipediainfo = we2YagoFact.getAllAssociateNameRelation(enName, Contant.yagowikipediainfo);
 
+        yago.setText(findText(conn,enName));
+        conn.close();
         yago.setResult(testResult);
         yago.setType(testType);
         yago.setWikiInfo(testWikipediainfo);
@@ -72,6 +79,27 @@ public class SearchDriver {
         }
 
         return yago;
+    }
+
+    private String findText(Connection conn,String title) throws SQLException {
+        String text = "";
+        text = doTextEn(conn,title);
+
+        return text;
+    }
+
+    private String doTextEn(Connection conn,String title) throws SQLException {
+        String texten = "";
+        if (!title.contains("'")) {
+            String sqlen = "SELECT * FROM enwiki.pagemapline as a,enwiki.page as b where a.name='" + title + "' and a.pageId=b.id;";
+
+            ResultSet resultSeten = opMysql.selectSQL(conn, sqlen);
+            while (resultSeten.next()) {
+                texten = resultSeten.getString("text");
+            }
+        }
+
+        return texten;
     }
 
     public TreeMap<String,String> searchEnWords(String wordName, String Context) throws SQLException, IOException, ClassNotFoundException {
