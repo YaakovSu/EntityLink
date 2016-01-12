@@ -1,0 +1,72 @@
+{
+"name": "Chinese_embroidery",
+"children": [
+{
+"name": "hasWikipediaArticleLength",
+"children": [
+{
+"name": "5379^^xsd:integer",
+"size": 0
+}]
+},{
+"name": "hasWikipediaUrl",
+"children": [
+{
+"name": "http://en.wikipedia.org/wiki/Chinese_embroidery",
+"size": 0
+}]
+},{
+"name": "linksTo",
+"children": [
+{
+"name": "Han_Dynasty",
+"size": 0
+},{
+"name": "Jiangsu",
+"size": 0
+},{
+"name": "Chaozhou",
+"size": 0
+},{
+"name": "Tibetan_people",
+"size": 0
+},{
+"name": "Guangdong",
+"size": 0
+},{
+"name": "Changsha",
+"size": 0
+},{
+"name": "Chengdu",
+"size": 0
+},{
+"name": "Zhuang_people",
+"size": 0
+},{
+"name": "Suzhou_Silk_Museum",
+"size": 0
+},{
+"name": "China",
+"size": 0
+},{
+"name": "Suzhou",
+"size": 0
+},{
+"name": "Sichuan",
+"size": 0
+},{
+"name": "Hunan",
+"size": 0
+},{
+"name": "Miao_people",
+"size": 0
+}]
+},{
+"name": "rdf:type",
+"children": [
+{
+"name": "wikicategory_Textile_arts_of_China",
+"size": 0
+}]
+}]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ecnu",
+  "children": [{
+    "name": "linkTo",
+      "children": [{
+        "name": "BetweennessCentrality",
+        "size": 0
+      }, {
+        "name": "LinkDistance",
+        "size": 0
+      }, {
+        "name": "MaxFlowMinCut",
+        "size": 0
+      }, {
+        "name": "ShortestPaths",
+        "size": 0
+      }, {
+        "name": "SpanningTree",
+        "size": 0
+      }]
+    }, {
+    "name": "type",
+      "children": [{
+        "name": "BetweennessCentrality",
+        "size": 0
+      }, {
+        "name": "LinkDistance",
+        "size": 0
+      }, {
+        "name": "MaxFlowMinCut",
+        "size": 0
+      }, {
+        "name": "ShortestPaths",
+        "size": 0
+      }, {
+        "name": "SpanningTree",
+        "size": 0
+      }]
+    },{
+    "name": "wikiInfo",
+      "children": [{
+        "name": "BetweennessCentrality",
+        "size": 0
+      }, {
+        "name": "LinkDistance",
+        "size": 0
+      }, {
+        "name": "MaxFlowMinCut",
+        "size": 0
+      }, {
+        "name": "ShortestPaths",
+        "size": 0
+      }, {
+        "name": "SpanningTree",
+        "size": 0
+      }]
+    }]
+}

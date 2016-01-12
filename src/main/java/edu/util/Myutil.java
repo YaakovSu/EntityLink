@@ -108,6 +108,8 @@ public class Myutil {
                 }
 //                deleteFile(files[i].getAbsolutePath());
             }
+        }else {
+            file.delete();
         }
 //        file.delete();
     }

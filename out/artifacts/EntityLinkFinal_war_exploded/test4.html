@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>跨语言实体查询系统</title>
+  <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/policy.css" rel="stylesheet" />
+    <link href="css/layoutit.css" rel='stylesheet' type='text/css' />
+    <!-- <link href="css/tanchuang.css" rel='stylesheet' type='text/css' /> -->
+    <link href="css/bootstrap-combined.min.css" rel='stylesheet' type='text/css' />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.htmlClean.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+        <style>
+        .black_overlay{
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index:1001;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=88);
+        }
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            width: 55%;
+            height: 55%;
+            padding: 20px;
+            border: 10px solid orange;
+            background-color: white;
+            z-index:1002;
+            overflow: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="sum">当前共有1条搜索结果</div><div class="container-fluid"><div class="row-fluid"><div class="span12"> <span class="label badge-success">展示1</span><div class="row-fluid"><div class="span8"> <div class="hero-unit well"> <h3> Hello, world! </h3><p> 这是一个可视化布局模板, 你可以点击模板里的文字进行修改, 也可以通过点击弹出的编辑框进行富文本修改. 拖动区块能实现排序.</p><p><a class="btn" href = "javascript:void(0)" onclick = "document.getElementById(light).style.display=block;document.getElementById(fade).style.display=block">查看更多>></a> </p><div id="light" class="white_content">  <a class="btn" href = "javascript:void(0)" onclick = "document.getElementById(light).style.display=none;document.getElementById(fade).style.display=none">点这里关闭本窗口</a>  <p> 这是一个层窗口示例程序.  </p></div> <div id="fade" class="black_overlay"> </div></div>  </div> <div class="span4">  <div id="list" style="text-align: center" align="center"><h3 align="center">YAGO中实体关系链接</h3> <table id="mytable" cellspacing="0" style="margin: auto"> <caption></caption><tr class="title1"> <th scope="col">一</th> <th scope="col">LinkTo</th> </tr> <tr class="sub-table1">  <td class="row">1</td> <td class="row">深入学习宣传领会十八届三中全会精神实质。</td></tr><tr class="sub-table1"> <td class="row">2</td> <td class="row">推进教育管办评分离。</td> </tr> <tr class="title2"> <th scope="col">二</th>  <th scope="col">Type</th> </tr> <tr class="sub-table2"> <td class="row">9</td> <td class="row">改革考试招生制度。</td> </tr><tr class="sub-table2"> <td class="row">10</td><td class="row">切实加强和改进德育工作。</td></tr> <tr class="title3"><th scope="col">三</th><th scope="col">WikiInfo</th></tr><tr class="sub-table3"> <td class="row">9</td> <td class="row">改革考试招生制度。</td></tr><tr class="sub-table3"> <td class="row">10</td><td class="row">切实加强和改进德育工作。</td></tr></table></div></div></div> <span class="label badge-success">展示2</span><div class="row-fluid"> <div class="span12"><div id="list"  style="text-align:center">  <h3>反馈</h3><table id="mytable" cellspacing="0" style="margin: auto"><caption></caption> <tr class="title4"> <th scope="col">一</th> <th scope="col">候选YAGO实体</th>  </tr> <tr class="sub-table4"> <td class="row">1</td> <td class="row">深入学习宣传领会十八届三中全会精神实质。</td></tr><tr class="sub-table4"> <td class="row">2</td> <td class="row">推进教育管办评分离。</td></tr></table> </div> </div></div> </div> </div></div>
+
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/echarts-all.js"></script>
+<!--总体分析饼图-->
+<script src="js/echarts-all.js"></script>
+<script type="text/javascript" src="js/policy.js"></script>
+
+
+</body>
+</html>

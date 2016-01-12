@@ -23,9 +23,9 @@
     <package name="default" extends="json-default">
         <action name="SearchAction" method="searchChineseMention" class="action.SearchAction">
             <result type="json">
-                <param name="includeProperties">
-                    dataMap.*
-                </param>
+                <!--<param name="includeProperties">-->
+                    <!--dataMap.*-->
+                <!--</param>-->
             </result>
         </action>
 

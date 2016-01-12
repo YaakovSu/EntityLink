@@ -20,5 +20,6 @@ public class Constant {
     public static final String CRFMODEL = "C:\\youngsu\\EntityLinkFinal\\english-left3words\\english-left3words-distsim.tagger";
     public static final String RSVMMODEL = "C:\\youngsu\\libsvm-3.20\\windows\\noInlinkModel";
 
+    public static final String GRAPHJSON = "C:\\youngsu\\EntityLinkFinal\\web\\data\\flare.json";
 
 }

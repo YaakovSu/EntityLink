@@ -8,42 +8,32 @@
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/default.css" rel="stylesheet" />
+    <link href="css/policy.css" rel="stylesheet" />
+    <link href="css/layoutit.css" rel='stylesheet' type='text/css' />
+    <link href="css/tanchuang.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap-combined.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/myd3.css" rel='stylesheet' type='text/css' />
 
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/dndTree.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
 </head>
 <body>
     <div class="header_bg">
         <div class="logo">
-            <a href="default.html"><h2>跨语言实体查询系统</h2></a>
+            <a href="index.html"><img alt="" src="img/logo.png"/></a>
         </div>
-        <!--<div class="menu">-->
-        <!--<nav>-->
-            <!--<ul class="top_list list-unstyled">-->
-                <!--<li class="activate"><a href="default.html">舆情搜索</a></li>-->
-                <!--<li>-->
-                    <!--<a id="policy">政策解读</a>-->
-                    <!--<ul id="sub-policy" class="sub-menu">-->
-                        <!--<li><a href="policy.html">政策总览</a></li>-->
-                        <!--<li><a href="">政策详解</a></li>-->
-                    <!--</ul>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--<a id="society">社会舆情</a>-->
-                    <!--<ul id="sub-society" class="sub-menu">-->
-                        <!--<li><a href="important.html">重大事件</a></li>-->
-                        <!--<li><a href="hot.html">舆情热点</a></li>-->
-                        <!--<li><a href="map.html">舆情地图</a></li>-->
-                        <!--<li><a href="">舆情时间</a></li>-->
-                        <!--<li><a href="">舆情对比</a></li>-->
-                    <!--</ul>-->
-                <!--</li>-->
-                <!--&lt;!&ndash;<li><a >舆情方法论</a></li>&ndash;&gt;-->
-                <!--<li><a>关于我们</a></li>-->
-            <!--</ul>-->
-        <!--</nav>-->
-    <!--</div>-->
+        <div class="menu" align="left">
+        <nav>
+            <ul class="top_list list-unstyled">
+                <li><a href="aboutMe.html">关于我们</a></li>
+            </ul>
+        </nav>
+    </div>
     </div>
     <div id="container">
         <div id="wrapper">
@@ -53,7 +43,7 @@
                     <!--<button id="web" class="btn btn-small btn-inverse" type="button">网页</button>-->
                     <!--<button id="forum" class="btn btn-small btn-inverse" type="button">论坛</button>-->
                     <button id="s" class="search-btn"><span>搜索</span></button>
-                    <a href="#" onclick="javascript:CM.search.enter_detail()">事件详解>></a>
+                    <!--<a href="#" onclick="javascript:CM.search.enter_detail()">事件详解>></a>-->
                 </div>
             </div>
             
@@ -75,6 +65,16 @@
                 <p class="err"></p>
                 <div class="loading"></div>
             </div>
+
+            <!--<div>-->
+                <!--<table id="mytable" cellspacing="0" style="margin: auto">-->
+                    <!--<caption></caption>-->
+                    <!--<tr id="sun">-->
+                        <!--<th scope="col">一</th>-->
+                        <!--<th scope="col">LinkTo</th>-->
+                    <!--</tr>-->
+                <!--</table>-->
+            <!--</div>-->
         </div>
         <!--<div id="word_cloud">
 
@@ -89,6 +89,11 @@
         <!--</div>-->
     <!--</div>-->
 
+    <script type="text/javascript">
+        $.ajaxSetup({
+            cache: false
+        });
+    </script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/default.js"></script>
     <script src="js/echarts-all.js"></script>
