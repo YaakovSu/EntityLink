@@ -66,7 +66,7 @@ public class wc2we {
             HashMap<String, Integer> semi_candidateEnName_inlink = getCandidateEnName(En_MDIc_ZhPageName, firstcloumn, secondcloumn, thirdcloumn);
 
             //基于inlinks获取top1000的候选集
-            TreeMap<String, Integer> keySet = top500CandidateEnName(semi_candidateEnName_inlink, 30);
+            TreeMap<String, Integer> keySet = top500CandidateEnName(semi_candidateEnName_inlink, 25);
             Set<String> candidateEns = keySet.keySet();
             FileWriter fwTrueRanksvm_noCoherence1 = new FileWriter(outputpath1);
             FileWriter fwTrueRanksvm_noCoherence2 = new FileWriter(outputpath2);

@@ -23,7 +23,6 @@ public class SearchAction extends ActionSupport {
 
     private Map<String, Object> dataMap = new HashMap<String, Object>();
 
-    private GraphJson graphJson =new GraphJson();
 
 
 
@@ -58,7 +57,9 @@ public class SearchAction extends ActionSupport {
 
         SearchDriver search = new SearchDriver();
 
+
         TreeMap<String,String> enNames = search.searchEnWords(name,filecontent);
+
         ArrayList<Yago> yagos = new ArrayList<Yago>();
         //寻找对应的YAGO子图
         Iterator<String> iterator = enNames.keySet().iterator();
@@ -148,8 +149,9 @@ public class SearchAction extends ActionSupport {
 //                    GraphJson graphJson = new GraphJson(yagoName,list);
 //                    HashMap<String, List<HashMap<String,List<HashMap<String,Object>>>>> graphJson = new HashMap<String, List<HashMap<String, List<HashMap<String, Object>>>>>();
 //                    graphJson.put(yagoName,list);
-                    graphJson.setName(yagoName);
-                    graphJson.setChildren(list);
+                    GraphJson graphJson =new GraphJson(yagoName,list);
+//                    graphJson.setName(yagoName);
+//                    graphJson.setChildren(list);
 //                    JsonResult jr = new JsonResult(graphJson);
 
                     dataMap.put("graphJson",graphJson);

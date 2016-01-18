@@ -7,43 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aacf1f8d-f37f-4aa9-b923-466fe59c1762" name="Default" comment="已经可以生成Json文件了，就差界面了">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/baike/Child.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/baike/GraphJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/baike/JsonResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/baike/YagoJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/aboutMe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/echarts-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/myd3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/policy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/policy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/tanchuang.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/testD3.html" />
-      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\img\logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\target\classes\action\SearchAction.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\web\img\logo.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\edu\Constant.class" afterPath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\edu\Constant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Constant.class" afterPath="$PROJECT_DIR$/target/classes/edu/Constant.class" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\edu\util\Myutil$1.class" afterPath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\edu\util\Myutil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Myutil$1.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Myutil$1.class" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\edu\util\Myutil.class" afterPath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\edu\util\Myutil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Myutil.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Myutil.class" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\action\SearchAction.class" afterPath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\action\SearchAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/edu/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EntityLinkFinal.iml" afterPath="$PROJECT_DIR$/EntityLinkFinal.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/util/Myutil.java" afterPath="$PROJECT_DIR$/src/main/java/edu/util/Myutil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/treeNode.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/ComputeCommonInOutCateInMDic.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/ComputeCommonInOutCateInMDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/ComputeCommonInOutCateInMDic.class" afterPath="$PROJECT_DIR$/target/classes/mytools/ComputeCommonInOutCateInMDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Contant.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Contant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Contant.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Contant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/FangAn2RandomGetTrainning.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/FangAn2RandomGetTrainning.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/traintools/FangAn2RandomGetTrainning.class" afterPath="$PROJECT_DIR$/target/classes/mytools/traintools/FangAn2RandomGetTrainning.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMResultRank.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMResultRank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/SVMResultRank.class" afterPath="$PROJECT_DIR$/target/classes/mytools/SVMResultRank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/action/SearchAction.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/action/SearchAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/action/SearchAction.class" afterPath="$PROJECT_DIR$/target/classes/action/SearchAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/SearchDriver.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/SearchDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/SearchDriver.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/SearchDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/baike/ZhEnPair.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/baike/ZhEnPair.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/baike/ZhEnPair.class" afterPath="$PROJECT_DIR$/target/classes/edu/baike/ZhEnPair.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/findZhWikiNodeNotInMDic.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/findZhWikiNodeNotInMDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/findZhWikiNodeNotInMDic.class" afterPath="$PROJECT_DIR$/target/classes/test/findZhWikiNodeNotInMDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/find_Linkto_InenWikiPedia.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/find_Linkto_InenWikiPedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/find_Linkto_InenWikiPedia.class" afterPath="$PROJECT_DIR$/target/classes/mytools/find_Linkto_InenWikiPedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc$1.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc$1.class" />
+      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc$1.class" afterPath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc.class" />
+      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc.class" afterPath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/wc2we.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/wc2we.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/wc2we.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/wc2we.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/util/Contant.java" afterPath="$PROJECT_DIR$/src/main/java/edu/util/Contant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/SearchAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/SearchAction.java" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\js\default.js" afterPath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\js\default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/aboutMe.html" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/aboutMe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/aboutMe.html" afterPath="$PROJECT_DIR$/web/aboutMe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/default.js" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/default.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/default.js" afterPath="$PROJECT_DIR$/web/js/default.js" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\index.html" afterPath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\struts.xml" afterPath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/wc2we.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/wc2we.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EntityLinkFinal.iws" />
@@ -68,78 +67,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JsonResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/JsonResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SearchAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/action/SearchAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+              <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#639#655#0" expanded="true" />
-                <element signature="e#2702#2723#0" expanded="true" />
-                <element signature="e#3367#3374#0" expanded="true" />
-                <element signature="e#4275#4282#0" expanded="true" />
-                <element signature="e#5187#5194#0" expanded="true" />
-                <element signature="e#5514#5524#0" expanded="true" />
-                <element signature="e#9347#9348#0" expanded="true" />
-                <element signature="e#9377#9378#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
+      <file leaf-file-name="Contant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Contant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.892857">
-              <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Child.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/Child.java">
+      <file leaf-file-name="Myutil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Myutil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-              </folding>
+              <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="we2yago.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/we2yago.java">
+      <file leaf-file-name="SearchDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+              <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -147,63 +111,50 @@
       </file>
       <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.xml">
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.4">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/Constant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/default.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3067047">
-              <caret line="486" column="0" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="398" column="28" selection-start-line="398" selection-start-column="26" selection-end-line="398" selection-end-column="28" />
               <folding>
-                <marker date="1452608978480" expanded="true" signature="8392:8409" placeholder="..." />
-                <marker date="1452608978480" expanded="true" signature="8553:8565" placeholder="..." />
-                <marker date="1452608978480" expanded="true" signature="10159:10176" placeholder="..." />
-                <marker date="1452608978480" expanded="true" signature="10276:10288" placeholder="..." />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1453094181280" expanded="true" signature="8329:8346" placeholder="..." />
+                <marker date="1453094181280" expanded="true" signature="8708:8725" placeholder="..." />
+                <marker date="1453094181280" expanded="true" signature="8910:8922" placeholder="..." />
+                <marker date="1453094181280" expanded="true" signature="10516:10533" placeholder="..." />
+                <marker date="1453094181280" expanded="true" signature="10633:10645" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qc2wc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
+      <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/aboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="139" column="34" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YagoJson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/YagoJson.java">
+      <file leaf-file-name="qc2wc.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.46011397">
+              <caret line="144" column="46" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,18 +196,14 @@
         <option value="$PROJECT_DIR$/src/main/java/action/JsonAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/util/opMysql.java" />
         <option value="$PROJECT_DIR$/src/main/java/rsvm/we2yago.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rsvm/wc2we.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/ThreadRunnable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/util/Contant.java" />
         <option value="$PROJECT_DIR$/src/main/java/rsvm/predict.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" />
         <option value="$PROJECT_DIR$/src/main/java/action/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/action/JsonJqueryStruts2Action.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/js/jQuer.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/Yago.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
         <option value="$PROJECT_DIR$/web/test3.html" />
         <option value="$PROJECT_DIR$/web/test2.html" />
         <option value="$PROJECT_DIR$/web/test.html" />
@@ -277,9 +224,16 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/Child.java" />
         <option value="$PROJECT_DIR$/web/data/flare.json" />
+        <option value="$PROJECT_DIR$/web/css/treeNode.css" />
         <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/action/SearchAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rsvm/wc2we.java" />
+        <option value="$PROJECT_DIR$/web/aboutMe.html" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/util/Contant.java" />
         <option value="$PROJECT_DIR$/web/js/default.js" />
+        <option value="$PROJECT_DIR$/src/main/java/action/SearchAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/baike/ZhEnPair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" />
       </list>
     </option>
   </component>
@@ -384,6 +338,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -489,6 +445,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityLinkFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityLinkFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -654,8 +628,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1071,7 +1043,11 @@
       <workItem from="1452153644911" duration="6506000" />
       <workItem from="1452218878282" duration="15171000" />
       <workItem from="1452420248434" duration="28172000" />
-      <workItem from="1452572590398" duration="32754000" />
+      <workItem from="1452572590398" duration="33567000" />
+      <workItem from="1452652141112" duration="4041000" />
+      <workItem from="1452656459140" duration="942000" />
+      <workItem from="1452657415835" duration="2407000" />
+      <workItem from="1453094340260" duration="1645000" />
     </task>
     <task id="LOCAL-00001" summary="终于在git上建web了">
       <created>1452080202302</created>
@@ -1095,7 +1071,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105328000" />
+    <option name="totallyTimeSpent" value="115176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1110,12 +1086,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.49720225" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3007663" sideWeight="0.81694645" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3149016" sideWeight="0.81694645" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.4940048" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26545843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1126,7 +1103,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1159,20 +1135,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/action/HelloAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/action/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/action/JsonAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4923077">
@@ -1208,25 +1170,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Contant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mytools/traintools/createTestDataForRankingSVMTrain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/wc2we.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.413284">
           <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7712177">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59594095">
           <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03505535">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,17 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/aboutMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.535713">
-          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="221" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1359,12 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.178572">
           <caret line="16" column="43" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1372,7 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.75">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,25 +1301,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33979136">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.33979136">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1407,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,27 +1354,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Myutil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,7 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,15 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="34" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,7 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.027104137">
           <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,37 +1390,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.4">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/YagoJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/Child.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1547,28 +1405,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/treeNode.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/YagoJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.892857">
-          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/treeStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/wc2we.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="101" selection-start-line="68" selection-start-column="101" selection-end-line="68" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/aboutMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="398" column="28" selection-start-line="398" selection-start-column="26" selection-end-line="398" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1453094181280" expanded="true" signature="8329:8346" placeholder="..." />
+            <marker date="1453094181280" expanded="true" signature="8708:8725" placeholder="..." />
+            <marker date="1453094181280" expanded="true" signature="8910:8922" placeholder="..." />
+            <marker date="1453094181280" expanded="true" signature="10516:10533" placeholder="..." />
+            <marker date="1453094181280" expanded="true" signature="10633:10645" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/ZhEnPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323398">
+          <caret line="266" column="74" selection-start-line="266" selection-start-column="74" selection-end-line="266" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6229508">
+          <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Myutil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Contant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1576,31 +1521,26 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/action/SearchAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#639#655#0" expanded="true" />
-            <element signature="e#2702#2723#0" expanded="true" />
-            <element signature="e#3367#3374#0" expanded="true" />
-            <element signature="e#4275#4282#0" expanded="true" />
-            <element signature="e#5187#5194#0" expanded="true" />
-            <element signature="e#5514#5524#0" expanded="true" />
-            <element signature="e#9347#9348#0" expanded="true" />
-            <element signature="e#9377#9378#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/default.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3067047">
-          <caret line="486" column="0" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-          <folding>
-            <marker date="1452608978480" expanded="true" signature="8392:8409" placeholder="..." />
-            <marker date="1452608978480" expanded="true" signature="8553:8565" placeholder="..." />
-            <marker date="1452608978480" expanded="true" signature="10159:10176" placeholder="..." />
-            <marker date="1452608978480" expanded="true" signature="10276:10288" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46011397">
+          <caret line="144" column="46" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

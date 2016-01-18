@@ -106,6 +106,7 @@ public class SearchDriver {
         qc2wc cw = new qc2wc();
         ECDic ecDic = new ECDic(Contant.E_CdicPath);
 
+
         //查询对应英文词
         TreeMap<String,String> zh_enNames = cw.writeOneNameSVMtrainningData(wordName, Context, ecDic);
 

@@ -41,7 +41,8 @@ public class Contant {
     /**
      * wc2we的一些常量
      */
-    public static final String MDicInputPath = "C:\\youngsu\\Entity_LinkingData\\en_zh_wiki_page.output";
+//    public static final String MDicInputPath = "C:\\youngsu\\Entity_LinkingData\\en_zh_wiki_page.output";
+    public static final String MDicInputPath = "C:\\youngsu\\EntityLinkingGitData\\data\\final_kcl_new.tsv";
     public static final String MDicCategoryInputPath = "C:\\youngsu\\Entity_LinkingData\\en_zh_wiki_category.output";
 
     public static final String E_CdicPath = "C:\\youngsu\\Entity_LinkingData\\langmanC_E.ld2.output";

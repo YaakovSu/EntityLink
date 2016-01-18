@@ -139,7 +139,9 @@ public class qc2wc{
 
     public TreeMap<String,String> writeOneNameSVMtrainningData(String name, String filecontent, ECDic E_CDic) throws SQLException, IOException, ClassNotFoundException {
 
+
         long timeTestStart = System.currentTimeMillis();
+
         boolean pre_inDic = MDicContain(name);
         TreeMap<String, String> enNames = new TreeMap<String, String>();
         if (pre_inDic) {
@@ -226,11 +228,11 @@ public class qc2wc{
     private boolean MDicContain(String zhWikiTitle) {
         ArrayList<String> lines = Myutil.readByLine(Contant.MDicInputPath);
         for (String line : lines) {
-
             String[] name = line.split("=");
             String enName = name[0];
             String zhName = name[1];
             if (zhName.equals(zhWikiTitle)) {
+
                 return true;
             }
         }
