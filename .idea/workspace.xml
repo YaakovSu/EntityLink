@@ -7,42 +7,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aacf1f8d-f37f-4aa9-b923-466fe59c1762" name="Default" comment="已经可以生成Json文件了，就差界面了">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/treeNode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\mytools\generateDisambigationMap.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\target\classes\mytools\generateDisambigationMap.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/nlp/BaikeParser.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/nlp/BaikeParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/nlp/BaikeParser.class" afterPath="$PROJECT_DIR$/target/classes/edu/nlp/BaikeParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/CalNodeFunctions.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/CalNodeFunctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lfg/CalNodeFunctions.class" afterPath="$PROJECT_DIR$/target/classes/lfg/CalNodeFunctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/Clean_DisambigationPageAllTitles.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/Clean_DisambigationPageAllTitles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/Clean_DisambigationPageAllTitles.class" afterPath="$PROJECT_DIR$/target/classes/mytools/Clean_DisambigationPageAllTitles.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/ComputeCommonInOutCateInMDic.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/ComputeCommonInOutCateInMDic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/ComputeCommonInOutCateInMDic.class" afterPath="$PROJECT_DIR$/target/classes/mytools/ComputeCommonInOutCateInMDic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Contant.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Contant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Contant.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Contant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/FangAn2RandomGetTrainning.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/FangAn2RandomGetTrainning.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/traintools/FangAn2RandomGetTrainning.class" afterPath="$PROJECT_DIR$/target/classes/mytools/traintools/FangAn2RandomGetTrainning.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/GetPig_OutlinkText.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/GetPig_OutlinkText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/GetPig_OutlinkText.class" afterPath="$PROJECT_DIR$/target/classes/mytools/GetPig_OutlinkText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Myutil.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Myutil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Myutil.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Myutil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Patterns.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Patterns.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Patterns.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Patterns.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/RandomChoseTestSets.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/RandomChoseTestSets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/RandomChoseTestSets.class" afterPath="$PROJECT_DIR$/target/classes/mytools/RandomChoseTestSets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMData2LogisticData.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMData2LogisticData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/SVMData2LogisticData.class" afterPath="$PROJECT_DIR$/target/classes/mytools/SVMData2LogisticData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMResultRank.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMResultRank.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/SVMResultRank.class" afterPath="$PROJECT_DIR$/target/classes/mytools/SVMResultRank.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/action/SearchAction.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/action/SearchAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/action/SearchAction.class" afterPath="$PROJECT_DIR$/target/classes/action/SearchAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/SearchDriver.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/SearchDriver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/SearchDriver.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/SearchDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/baike/ZhEnPair.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/baike/ZhEnPair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/baike/ZhEnPair.class" afterPath="$PROJECT_DIR$/target/classes/edu/baike/ZhEnPair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/findZhWikiNodeNotInMDic.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/findZhWikiNodeNotInMDic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/findZhWikiNodeNotInMDic.class" afterPath="$PROJECT_DIR$/target/classes/test/findZhWikiNodeNotInMDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/WriteNodeFunction2AllPairs.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/WriteNodeFunction2AllPairs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lfg/WriteNodeFunction2AllPairs.class" afterPath="$PROJECT_DIR$/target/classes/lfg/WriteNodeFunction2AllPairs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/createCombinInlinkNames.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/createCombinInlinkNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/createCombinInlinkNames.class" afterPath="$PROJECT_DIR$/target/classes/mytools/createCombinInlinkNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/createNewTableHasSeged.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/createNewTableHasSeged.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/createNewTableHasSeged.class" afterPath="$PROJECT_DIR$/target/classes/mytools/createNewTableHasSeged.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/createTestDataForRankingSVMTrain.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/createTestDataForRankingSVMTrain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/traintools/createTestDataForRankingSVMTrain.class" afterPath="$PROJECT_DIR$/target/classes/mytools/traintools/createTestDataForRankingSVMTrain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/createTestDataForSVMTrain.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/traintools/createTestDataForSVMTrain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/traintools/createTestDataForSVMTrain.class" afterPath="$PROJECT_DIR$/target/classes/mytools/traintools/createTestDataForSVMTrain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/cutYagoFiles.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/cutYagoFiles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/cutYagoFiles.class" afterPath="$PROJECT_DIR$/target/classes/mytools/cutYagoFiles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/findDesInZhWiki.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/findDesInZhWiki.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/findDesInZhWiki.class" afterPath="$PROJECT_DIR$/target/classes/mytools/findDesInZhWiki.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/findInfoBoxNumInWikipedia.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/findInfoBoxNumInWikipedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/findInfoBoxNumInWikipedia.class" afterPath="$PROJECT_DIR$/target/classes/test/findInfoBoxNumInWikipedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/findRightInMDic.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/findRightInMDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/findRightInMDic.class" afterPath="$PROJECT_DIR$/target/classes/mytools/findRightInMDic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/find_Linkto_InenWikiPedia.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/find_Linkto_InenWikiPedia.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/find_Linkto_InenWikiPedia.class" afterPath="$PROJECT_DIR$/target/classes/mytools/find_Linkto_InenWikiPedia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc$1.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc$1.class" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc$1.class" afterPath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/generateCadidateDictionary.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/generateCadidateDictionary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/generateCadidateDictionary.class" afterPath="$PROJECT_DIR$/target/classes/mytools/generateCadidateDictionary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/generateRedirectSet.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/generateRedirectSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/generateRedirectSet.class" afterPath="$PROJECT_DIR$/target/classes/mytools/generateRedirectSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/getCategoryMapping.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/getCategoryMapping.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/getCategoryMapping.class" afterPath="$PROJECT_DIR$/target/classes/mytools/getCategoryMapping.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/getEdgeFunctions.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/getEdgeFunctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lfg/getEdgeFunctions.class" afterPath="$PROJECT_DIR$/target/classes/lfg/getEdgeFunctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/getLDATopic_zh_en.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/getLDATopic_zh_en.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/getLDATopic_zh_en.class" afterPath="$PROJECT_DIR$/target/classes/mytools/getLDATopic_zh_en.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/getPCGraph.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/getPCGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lfg/getPCGraph.class" afterPath="$PROJECT_DIR$/target/classes/lfg/getPCGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/insert2Page_inlinkNames.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/insert2Page_inlinkNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/insert2Page_inlinkNames.class" afterPath="$PROJECT_DIR$/target/classes/mytools/insert2Page_inlinkNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/insert2Page_outlinkNames.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/insert2Page_outlinkNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/insert2Page_outlinkNames.class" afterPath="$PROJECT_DIR$/target/classes/mytools/insert2Page_outlinkNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/insertYagoData2Mysql.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/insertYagoData2Mysql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/insertYagoData2Mysql.class" afterPath="$PROJECT_DIR$/target/classes/mytools/insertYagoData2Mysql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/opMysql.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/opMysql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/opMysql.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/opMysql.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/qc2wc.class" />
-      <change type="MODIFICATION" beforePath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc.class" afterPath="C:\youngsu\EntityLinkFinal\target\classes\rsvm\qc2wc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/qc2wc.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/qc2wc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/testANSJ.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/testANSJ.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/testANSJ.class" afterPath="$PROJECT_DIR$/target/classes/test/testANSJ.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/testDisamDic.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/testDisamDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/testDisamDic.class" afterPath="$PROJECT_DIR$/target/classes/mytools/testDisamDic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/testFindYagoGraph.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/test/testFindYagoGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/testFindYagoGraph.class" afterPath="$PROJECT_DIR$/target/classes/test/testFindYagoGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/test_GetTrainningData.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/test_GetTrainningData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lfg/test_GetTrainningData.class" afterPath="$PROJECT_DIR$/target/classes/lfg/test_GetTrainningData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/wc2we.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/wc2we.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/wc2we.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/wc2we.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/util/Contant.java" afterPath="$PROJECT_DIR$/src/main/java/edu/util/Contant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/SearchAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/SearchAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/aboutMe.html" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/aboutMe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/aboutMe.html" afterPath="$PROJECT_DIR$/web/aboutMe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/default.js" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/default.js" afterPath="$PROJECT_DIR$/web/js/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/wc2we.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/wc2we.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/util/Patterns.java" afterPath="$PROJECT_DIR$/src/main/java/edu/util/Patterns.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java" afterPath="$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EntityLinkFinal.iws" />
@@ -111,14 +157,14 @@
       </file>
       <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -139,21 +185,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/aboutMe.html">
+      <file leaf-file-name="qc2wc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qc2wc.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
+      <file leaf-file-name="WikiPageParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47994056">
-              <caret line="144" column="46" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.61325115">
+              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateDisambigationMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding>
+                <marker date="1453274787633" expanded="true" signature="465:574" placeholder="/**...*/" />
+                <marker date="1453274787633" expanded="true" signature="719:1362" placeholder="{...}" />
+                <marker date="1453274787633" expanded="false" signature="960:987" placeholder="&lt;~&gt;" />
+                <marker date="1453274787633" expanded="true" signature="1560:1906" placeholder="{...}" />
+                <marker date="1453274787633" expanded="true" signature="1972:2751" placeholder="{...}" />
+                <marker date="1453274787633" expanded="false" signature="2320:2328" placeholder="&lt;~&gt;" />
+                <marker date="1453274787633" expanded="true" signature="2833:3607" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Patterns.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Patterns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="23" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -234,6 +310,9 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/ZhEnPair.java" />
         <option value="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/util/Patterns.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java" />
       </list>
     </option>
   </component>
@@ -338,8 +417,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -510,130 +587,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rsvm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="baike" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EntityLinkFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
+              <option name="myItemId" value="testFunction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EduKgVault" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InfoboxExtractor" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -662,7 +629,7 @@
       <recent name="C:\youngsu\EntityLinkFinal\web\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat8">
+  <component name="RunManager" selected="Application.WikiPageParser">
     <configuration default="false" name="SearchDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -671,6 +638,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="rsvm.SearchDriver" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="EntityLinkFinal" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WikiPageParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="testFunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="testFunction.WikiPageParser" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1014,13 +1001,15 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat8" />
       <item index="1" class="java.lang.String" itemvalue="Application.SearchDriver" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WikiPageParser" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.SearchDriver" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.WikiPageParser" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SearchDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -1047,7 +1036,9 @@
       <workItem from="1452652141112" duration="4041000" />
       <workItem from="1452656459140" duration="942000" />
       <workItem from="1452657415835" duration="2407000" />
-      <workItem from="1453094340260" duration="1788000" />
+      <workItem from="1453094340260" duration="1982000" />
+      <workItem from="1453267585402" duration="10046000" />
+      <workItem from="1453284120102" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="终于在git上建web了">
       <created>1452080202302</created>
@@ -1071,7 +1062,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115319000" />
+    <option name="totallyTimeSpent" value="126132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1081,18 +1072,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.49720225" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.18305355" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.49720225" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.18305355" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.49720225" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3218391" sideWeight="0.81694645" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.4940048" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3237548" sideWeight="0.81694645" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.4940048" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27665246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1103,6 +1093,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1135,27 +1126,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/action/JsonAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4923077">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EntityLinkFinal.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/opMysql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1305,14 +1275,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33979136">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/d3.js">
@@ -1341,16 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1386,7 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33238232">
           <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,10 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#353#354#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1405,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,12 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#422#423#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,7 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="101" selection-start-line="68" selection-start-column="101" selection-end-line="68" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,19 +1402,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/default.js">
@@ -1490,7 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323398">
           <caret line="266" column="74" selection-start-line="266" selection-start-column="74" selection-end-line="266" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,7 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6229508">
           <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,9 +1481,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47994056">
-          <caret line="144" column="46" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Patterns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="23" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <marker date="1453274787633" expanded="true" signature="465:574" placeholder="/**...*/" />
+            <marker date="1453274787633" expanded="true" signature="719:1362" placeholder="{...}" />
+            <marker date="1453274787633" expanded="false" signature="960:987" placeholder="&lt;~&gt;" />
+            <marker date="1453274787633" expanded="true" signature="1560:1906" placeholder="{...}" />
+            <marker date="1453274787633" expanded="true" signature="1972:2751" placeholder="{...}" />
+            <marker date="1453274787633" expanded="false" signature="2320:2328" placeholder="&lt;~&gt;" />
+            <marker date="1453274787633" expanded="true" signature="2833:3607" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61325115">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
