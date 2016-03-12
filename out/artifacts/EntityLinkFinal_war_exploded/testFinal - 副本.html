@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Nav &middot; Advanced Left Navigation Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<!-- dndTree -->
+<link href="css/myd3.css" rel='stylesheet' type='text/css' />
+<!-- ciyun -->
+    <link rel="stylesheet" type="text/css" href="css/miaov_style.css"/> 
+        <link href="css/indexnew.css" rel='stylesheet' type='text/css' />
+
+            <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/common.css" rel="stylesheet" />
+<!--     <link href="css/default.css" rel="stylesheet" />
+    <link href="css/policy.css" rel="stylesheet" /> -->
+
+
+  
+    <script src="irjs/responsive-nav.js"></script>
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+ <script type="text/javascript" src="js/myJs.js"></script>
+ <!-- zhanshi Tree -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/dndTree.js"></script>
+
+  <script src="irjs/readmore.js"></script>
+    <script src="irjs/readmore.min.js"></script>
+        <script type="text/javascript" src="irjs/indexnew.js"></script>
+
+     <style media="screen">
+    a { color: #178DB1; }
+  </style>
+
+  </head>
+  <body>
+
+    <div class="header_bg">
+        <div class="logo">
+            <a href="index.html"><img alt="" src=""/></a>
+        </div>
+        <div class="menu" align="left">
+        <nav>
+            <ul class="top_list list-unstyled">
+                <li><a href="aboutMe.html">关于我们</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+
+    <div role="navigation" id="foo" class="nav-collapse">
+      <ul >
+        <li class="active" onclick="changeHome()"><a href="#home" id="home">英文维基</a></li>
+        <li><a href="#about" id="about" onclick="changeAbout()">中文维基</a></li>
+        <li><a href="#projects" id="projects" onclick="changeProjects()">YAGO关系图</a></li>
+        <li><a href="#blog" id="blog" onclick="changeBlog()">相关分析</a></li>
+      </ul>
+    </div> 
+
+ <div class="main" id="tt1">
+      <a href="#nav" class="nav-toggle">Menu</a>
+          <article>
+      <h1><font color="#5B5B5B">YagoName</font></h1>
+      YagoText
+
+      </article>
+</div>
+
+<div class="" id="tt2" style="display: none;">
+    <article>
+        <h1><font color="#5B5B5B">YagoName</font></h1>
+        YagoText
+
+    </article>
+</div>
+<div class="" id="tt3" style="display: none;">
+<div id="tree-container" style="text-align:center">
+                            <div id="footer">
+                                YAGO关系树
+                                <div class="hint">
+                                    yagoName
+                                </div>
+                            </div>
+</div>
+
+</div>
+<div  class="" id="tt4" style="display: none;">
+        <div id="ciyun-container">
+            <h1><font color="#5B5B5B">关键词词云</font></h1>
+        </div>
+             <br>
+<HR style="border:3 double #000000" width="100%" color=#000000 SIZE=3>
+<br>
+        <div id="stcq2" class="cixingboxt" style="display: block;">
+        <h1><font color="#5B5B5B">关键句</font></h1>
+                        <textarea class="input">展示英文页面</textarea>
+        </div>
+
+</div>
+</div>
+    <div class="di">
+        <div class="caidan">
+            <div class="kuai01">
+                <div class="b1">相关网站</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://www.nlpir.org/" target="_black">NLPIR共享平台</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="http://ictclas.nlpir.org/" target="_black">ICTCLAS分词系统</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="http://www.bigdatabbs.com/" target="_black">大数据论坛</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai02">
+                <div class="b1">资源共享</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://www.bigdatabbs.com/forum.php?mod=forumdisplay&amp;fid=50" target="_black">技术文档</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="https://github.com/NLPIR-team/NLPIR" target="_black">GitHub</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="http://www.bigdatabbs.com/forum.php?mod=forumdisplay&amp;fid=52" target="_black">共享软件</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai02">
+                <div class="b1">关于NLPIR</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://ictclas.nlpir.org/docs" target="_black">NLPIR简介</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai02">
+                <div class="b1">关于我们</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://ictclas.nlpir.org/contactus" target="_black">联系我们</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai03">
+                <div class="b1">微信扫一扫</div>
+            </div>
+            
+            <div class="kuai04">
+                <img src="imagenew/09.jpg" style="width:90px; height:90px;">
+            </div>
+        </div>
+        
+        <div class="fenjie"></div>
+        
+       
+    </div>
+    <div class="row-fluid">
+        <div class="span12">
+        </div>
+    </div>
+</div>
+
+  <script>
+    $("article").readmore({maxHeight: 240});
+  </script>
+
+    <script>
+      var navigation = responsiveNav("foo", {customToggle: ".nav-toggle"});
+    </script>
+    <!-- ciyun -->
+     <script type="text/javascript" src="irjs/miaov.js"></script> 
+  </body>
+</html>

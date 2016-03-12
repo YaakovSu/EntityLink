@@ -68,7 +68,7 @@ public class SearchAction extends ActionSupport {
             String zhName = iterator.next();
             String enName = enNames.get(zhName);
             System.out.println(enName);
-            Yago yago = search.getYagoGraph(enName);
+            Yago yago = search.getYagoGraph(enName,zhName);
             if(!yago.getName().equals("")){
                 String key = "yago"+count;
 

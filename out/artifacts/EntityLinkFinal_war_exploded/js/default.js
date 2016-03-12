@@ -200,135 +200,137 @@ var keywords = "";
             var yagoType = List0.type;
 
 
-
-
-            html+='<div class="container-fluid">'
-            html+='<div class="row-fluid">'
-            html+='<div class="span12">'
-            html+=' <span class="label badge-success">展示1</span>'
-            html+='<div class="row-fluid">'
-            html+='<div class="span8">'
-
-            html+=' <div class="hero-unit well">'
-            html+=' <h3>'
-            html+=yagoName
-            html+=' </h3>'
-            html+='<p>'
-            html+=yagoText.substring(0,50)+'...'
-            html+='</p>'
-            html+='<p>'
-            html+='<a class="btn" href = "javascript:void(0)" onclick = "document.getElementById('+"'light'"+').style.display='+"'block'"+';document.getElementById('+"'fade'"+').style.display='+"'block'"+'">查看更多>></a>'
-            html+=' </p>'
-            html+='<div id="light" class="white_content">'
-            html+='  <a class="btn" href = "javascript:void(0)" onclick = "document.getElementById('+"'light'"+').style.display='+"'none'"+';document.getElementById('+"'fade'"+').style.display='+"'none'"+'">点这里关闭本窗口</a>'
-            html+='  <p>'
+            html+='<div role="navigation" id="foo" class="nav-collapse">'
+            html+='<ul>'
+            html+='<li class="active" onclick="changeHome()"><a href="#home" id="home">英文维基</a></li>'
+            html+='<li><a href="#about" id="about" onclick="changeAbout()">中文维基</a></li>'
+            html+='<li><a href="#projects" id="projects" onclick="changeProjects()">YAGO关系图</a></li>'
+            html+='<li><a href="#blog" id="blog" onclick="changeBlog()">相关分析</a></li>'
+            html+='</ul>'
+            html+='</div>'
+            html+='<div class="main" id="tt1">'
+            html+='<a href="#nav" class="nav-toggle">Menu</a>'
+            html+='<article>'
+            html+='<h1><font color="#5B5B5B">'+yagoName+'</font></h1>'
             html+=yagoText
-            html+='  </p>'
+            html+='</article>'
+
+            html+='<br>'
+            html+='<HR style="border:3 '+'double #000000" width="100%" color=#000000 SIZE=3>'
+            html+='<br>'
+
+            html+='<article>'
+            html+='<h1><font color="#5B5B5B">'+yagoName+'</font></h1>'
+            html+=yagoText
+            html+='</article>'
+
             html+='</div>'
-            html+=' <div id="fade" class="black_overlay">'
-            html+=' </div>'
-            html+='</div>'
-            //html+='<div id="tree-container"></div>'
-            //    html+='<div id="body">'
+            
+            html+='<div class="" id="tt2" style="display: none;">'
+
             html+='<div id="tree-container" style="text-align:center">'
-                html+='<div id="footer">'
-                html+='YAGO关系树'
-                html+='<div class="hint">'+yagoName+'</div>'
-                html+='</div>'
-                 html+='</div>'
+              html+='              <div id="footer">'
+             html+='                   YAGO关系树'
+             html+='                   <div class="hint">'
+             html+='                       yagoName'
+            html+='                    </div>'
+             html+='               </div>'
+html+='</div>'
+html+='</div>'
+html+='<div class="" id="tt3" style="display: none;">'
+ html+='<div id="ciyun-container">'
+            html+='<h1><font color="#5B5B5B">关键词词云</font></h1>'
+        html+='</div>'
+             html+='<br>'
+html+='<HR style="border:3 '+'double #000000" width="100%" color=#000000 SIZE=3>'
+html+='<br>'
+       html+=' <div id="stcq2" class="cixingboxt" style="display: block;">'
+        html+='<h1><font color="#5B5B5B">关键句</font></h1>'
+                        html+='<textarea class="input">展示英文页面</textarea>'
+        html+='</div>'
+html+='</div>'
+html+='<div  class="" id="tt4" style="display: none;">'
+html+='</div>'
+    html+='</div>'
 
-
-            html+='  </div><span class="label badge-success">展示2</span>'
-
-            html+=' <div class="span4">'
-            html+='  <div id="list" style="text-align: right" align="right">'
-            html+='<h3 align="right">'+yagoName+'</h3>'
-            html+='<h5 align="right">关系子图</h5>'
-            html+=' <table id="mytable" cellspacing="0" style="margin: auto">'
-            html+=' <caption></caption>'
-            html+='<tr class="title1">'
-            html+=' <th scope="col">一</th>'
-            html+=' <th scope="col">LinkTo</th>'
-            html+=' </tr>'
-            for(var i=0;i<yagoWikiInfo.length;i++){
-                html+=' <tr class="sub-table1">'
-                html+='  <td class="row">'+i+'</td>'
-                html+=' <td class="row">'+yagoWikiInfo[i]+'</td>'
-                html+='</tr>'
-            }
-
-            html+=' <tr class="title2">'
-            html+=' <th scope="col">二</th>'
-            html+='  <th scope="col">Type</th>'
-            html+=' </tr>'
-            for(var i=0;i<yagoType.length;i++){
-                html+=' <tr class="sub-table2">'
-                html+='  <td class="row">'+i+'</td>'
-                html+=' <td class="row">'+yagoType[i]+'</td>'
-                html+='</tr>'
-            }
-
-            html+=' <tr class="title3">'
-            html+='<th scope="col">三</th>'
-            html+='<th scope="col">WikiInfo</th>'
-            html+='</tr>'
-            for(var i=0;i<yagoResult.length;i++){
-                html+=' <tr class="sub-table3">'
-                html+='  <td class="row">'+i+'</td>'
-                html+=' <td class="row">'+yagoResult[i]+'</td>'
-                html+='</tr>'
-            }
-            html+='</table>'
-            html+='</div>'
-            html+='</div>'
-
-
-
-            html+='</div> <span class="label badge-success">展示3</span>'
-            html+='<div class="row-fluid">'
-            html+=' <div class="span12">'
-
-            html+='<div id="list"  style="text-align:center">'
-            html+='  <h3>反馈</h3>'
-            html+='<table id="mytable" cellspacing="0" style="margin: auto">'
-            html+='<caption></caption>'
-            html+=' <tr class="title4">'
-            html+=' <th scope="col">一</th>'
-            html+=' <th scope="col">候选YAGO实体</th>'
-            html+='  </tr>'
-
-            var cout = 1;
-            if (typeof(List1) != "undefined"){
-                yagoName = List1.name;
-                if(List1.name!=""){
-                    html+=' <tr class="sub-table4">'
-                    html+=' <td class="row">'+cout+'</td>'
-                    html+=' <td class="row">'+yagoName+'</td>'
-                    html+='</tr>'
-                    cout+=1;
-                }
-
-            }
-            if(typeof(List2) != "undefined"){
-                yagoName = List2.name;
-                if(yagoName!=""){
-                    html+='<tr class="sub-table4">'
-                    html+=' <td class="row">'+cout+'</td>'
-                    html+=' <td class="row">'+yagoName+'</td>'
-                    html+='</tr>'
-                }
-
-            }
-            html+='</table>'
+            html+='<div class="di">'
+            html+='<div class="caidan">'
+            html+='<div class="kuai01">'
+            html+=' <div class="b1">相关网站</div>'
+            html+=' <div class="b2">'
+            html+=' <div class="b3">'
+            html+=' <a href="http://www.nlpir.org/" target="_black">NLPIR共享平台</a>'
             html+=' </div>'
+
+            html+='<div class="b3">'
+            html+=' <a href="http://ictclas.nlpir.org/" target="_black">ICTCLAS分词系统</a>'
             html+=' </div>'
+
+            html+=' <div class="b3">'
+            html+=' <a href="http://www.bigdatabbs.com/" target="_black">大数据论坛</a>'
             html+='</div>'
             html+=' </div>'
             html+=' </div>'
+
+            html+=' <div class="kuai02">'
+            html+=' <div class="b1">资源共享</div>'
+            html+=' <div class="b2">'
+            html+='  <div class="b3">'
+            html+=' <a href="http://www.bigdatabbs.com/forum.php?mod=forumdisplay&amp;fid=50" target="_black">技术文档</a>'
             html+='</div>'
 
+            html+=' <div class="b3">'
+            html+='<a href="https://github.com/NLPIR-team/NLPIR" target="_black">GitHub</a>'
+            html+='</div>'
+
+            html+=' <div class="b3">'
+            html+=' <a href="http://www.bigdatabbs.com/forum.php?mod=forumdisplay&amp;fid=52" target="_black">共享软件</a>'
+            html+=' </div>'
+            html+='</div>'
+            html+=' </div>'
+
+            html+='<div class="kuai02">'
+            html+='<div class="b1">关于NLPIR</div>'
+            html+='<div class="b2">'
+            html+='<div class="b3">'
+            html+='<a href="http://ictclas.nlpir.org/docs" target="_black">NLPIR简介</a>'
+            html+='</div>'
+            html+=' </div>'
+            html+=' </div>'
+
+            html+=' <div class="kuai02">'
+            html+=' <div class="b1">关于我们</div>'
+            html+=' <div class="b2">'
+            html+=' <div class="b3">'
+            html+=' <a href="http://ictclas.nlpir.org/contactus" target="_black">联系我们</a>'
+            html+='</div>'
+            html+=' </div>'
+            html+='</div>'
+
+            html+='<div class="kuai03">'
+            html+='<div class="b1">微信扫一扫</div>'
+            html+='</div>'
+
+            html+='<div class="kuai04">'
+            html+='<img src="imagenew/09.jpg" style="width:90px; height:90px;">'
+            html+='</div>'
+            html+=' </div>'
+
+            html+='<div class="fenjie"></div>'
+            html+=' </div>'
+            html+=' <div class="row-fluid">'
+            html+='   <div class="span12">'
+            html+=' </div>'
+            html+='</div>'
+            html+=' </div>'
+
+            html+='<script>'
+            html+='$("article").readmore({maxHeight: 240});'
+            html+='</script>'
 
 
+
+///////////////////////////////////////////////////////////////////////////////////////////
 
 
             this.$container.html(html);
@@ -440,6 +442,7 @@ var keywords = "";
 //                    url: '/NewsSearch/searchForum',   // url：  search for forum 
                 dataType: 'json',
                 cache:false,
+                async:false,
                 data: {
                     q: query,
                     start: start
@@ -492,6 +495,255 @@ var keywords = "";
 
 
                     //    ********************************************************************
+
+
+// 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+
+var radius = 180;//3D 球的半径
+var dtr = Math.PI/180;
+var d=600;
+
+var mcList = [];
+var active = false;
+var lasta = 1;
+var lastb = 1;
+var distr = true;
+var tspeed=20;//文字移动速度
+var size=250;
+
+var mouseX=0;
+var mouseY=0;
+
+var howElliptical=1;
+
+var aA=null;
+var oDiv=null;
+var i=0;
+    var oTag=null;
+    $.getJSON( "test.json", function( data ) {
+        console.log("这里getjson");
+        var items = [];
+        $.each( data, function( key, val ) {
+            items.push( "<a href=#  style=font-size:"+val+"px>"+key+"</a>" );
+        });
+        $( "<div/>", {
+            "id": "div1",
+            style:"border:solid 0px black",
+            ALIGN: "center",
+            html: items.join( "" )
+        }).appendTo( "#ciyun-container" );
+        //console.log($('div'));
+
+        oDiv=document.getElementById('div1');
+        aA=oDiv.getElementsByTagName('a');
+
+        for(i=0;i<aA.length;i++)
+        {
+            oTag={};
+            oTag.offsetWidth=aA[i].offsetWidth;
+            oTag.offsetHeight=aA[i].offsetHeight;
+            mcList.push(oTag);
+        }
+
+        sineCosine( 0,0,0 );
+
+        positionAll();
+
+        oDiv.onmouseover=function ()
+        {
+            active=true;
+        };
+
+        oDiv.onmouseout=function ()
+        {
+            active=false;
+        };
+
+        oDiv.onmousemove=function (ev)
+        {
+            var oEvent=window.event || ev;
+
+            mouseX=oEvent.clientX-(oDiv.offsetLeft+oDiv.offsetWidth/2);
+            mouseY=oEvent.clientY-(oDiv.offsetTop+oDiv.offsetHeight/2);
+
+            mouseX/=5;
+            mouseY/=5;
+        };
+
+        setInterval(update, 30);
+    });
+
+function update()
+{
+    var a;
+    var b;
+    
+    if(active)
+    {
+        a = (-Math.min( Math.max( -mouseY, -size ), size ) / radius ) * tspeed;
+        b = (Math.min( Math.max( -mouseX, -size ), size ) / radius ) * tspeed;
+    }
+    else
+    {
+        a = lasta * 0.98;
+        b = lastb * 0.98;
+    }
+    
+    lasta=a;
+    lastb=b;
+    
+    if(Math.abs(a)<=0.01 && Math.abs(b)<=0.01)
+    {
+        return;
+    }
+    
+    var c=0;
+    sineCosine(a,b,c);
+    for(var j=0;j<mcList.length;j++)
+    {
+        var rx1=mcList[j].cx;
+        var ry1=mcList[j].cy*ca+mcList[j].cz*(-sa);
+        var rz1=mcList[j].cy*sa+mcList[j].cz*ca;
+        
+        var rx2=rx1*cb+rz1*sb;
+        var ry2=ry1;
+        var rz2=rx1*(-sb)+rz1*cb;
+        
+        var rx3=rx2*cc+ry2*(-sc);
+        var ry3=rx2*sc+ry2*cc;
+        var rz3=rz2;
+        
+        mcList[j].cx=rx3;
+        mcList[j].cy=ry3;
+        mcList[j].cz=rz3;
+        
+        per=d/(d+rz3);
+        
+        mcList[j].x=(howElliptical*rx3*per)-(howElliptical*2);
+        mcList[j].y=ry3*per;
+        mcList[j].scale=per;
+        mcList[j].alpha=per;
+        
+        mcList[j].alpha=(mcList[j].alpha-0.6)*(10/6);
+    }
+    
+    doPosition();
+    depthSort();
+}
+
+function depthSort()
+{
+    var i=0;
+    var aTmp=[];
+    
+    for(i=0;i<aA.length;i++)
+    {
+        aTmp.push(aA[i]);
+    }
+    
+    aTmp.sort
+    (
+        function (vItem1, vItem2)
+        {
+            if(vItem1.cz>vItem2.cz)
+            {
+                return -1;
+            }
+            else if(vItem1.cz<vItem2.cz)
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+    );
+    
+    for(i=0;i<aTmp.length;i++)
+    {
+        aTmp[i].style.zIndex=i;
+    }
+}
+
+function positionAll()
+{
+    var phi=0;
+    var theta=0;
+    var max=mcList.length;
+    var i=0;
+    
+    var aTmp=[];
+    var oFragment=document.createDocumentFragment();
+    
+    //�������
+    for(i=0;i<aA.length;i++)
+    {
+        aTmp.push(aA[i]);
+    }
+    
+    aTmp.sort
+    (
+        function ()
+        {
+            return Math.random()<0.5?1:-1;
+        }
+    );
+    
+    for(i=0;i<aTmp.length;i++)
+    {
+        oFragment.appendChild(aTmp[i]);
+    }
+    
+    oDiv.appendChild(oFragment);
+    
+    for( var i=1; i<max+1; i++){
+        if( distr )
+        {
+            phi = Math.acos(-1+(2*i-1)/max);
+            theta = Math.sqrt(max*Math.PI)*phi;
+        }
+        else
+        {
+            phi = Math.random()*(Math.PI);
+            theta = Math.random()*(2*Math.PI);
+        }
+        //���任
+        mcList[i-1].cx = radius * Math.cos(theta)*Math.sin(phi);
+        mcList[i-1].cy = radius * Math.sin(theta)*Math.sin(phi);
+        mcList[i-1].cz = radius * Math.cos(phi);
+        
+        aA[i-1].style.left=mcList[i-1].cx+oDiv.offsetWidth/2-mcList[i-1].offsetWidth/2+'px';
+        aA[i-1].style.top=mcList[i-1].cy+oDiv.offsetHeight/2-mcList[i-1].offsetHeight/2+'px';
+    }
+}
+
+function doPosition()
+{
+    var l=oDiv.offsetWidth/2;
+    var t=oDiv.offsetHeight/2;
+    for(var i=0;i<mcList.length;i++)
+    {
+        aA[i].style.left=mcList[i].cx+l-mcList[i].offsetWidth/2+'px';
+        aA[i].style.top=mcList[i].cy+t-mcList[i].offsetHeight/2+'px';
+        //aA[i].style.fontSize=Math.ceil(12*mcList[i].scale/2)+8+'px';
+        aA[i].style.filter="alpha(opacity="+100*mcList[i].alpha+")";
+        aA[i].style.opacity=mcList[i].alpha;
+    }
+}
+
+function sineCosine( a, b, c)
+{
+    sa = Math.sin(a * dtr);
+    ca = Math.cos(a * dtr);
+    sb = Math.sin(b * dtr);
+    cb = Math.cos(b * dtr);
+    sc = Math.sin(c * dtr);
+    cc = Math.cos(c * dtr);
+}
+
+
+//8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
 
                         console.log(data.dataMap.graphJson);
 
@@ -801,7 +1053,7 @@ var keywords = "";
                                 scale = zoomListener.scale();
                                 x = -source.y0;
                                 y = -source.x0;
-                                x = x * scale + viewerWidth / 2;
+                                x = x * scale + viewerWidth / 4;
                                 y = y * scale + viewerHeight / 2;
                                 d3.select('g').transition()
                                     .duration(duration)
@@ -849,7 +1101,7 @@ var keywords = "";
                                     }
                                 };
                                 childCount(0, root);
-                                var newHeight = d3.max(levelWidth) * 25; // 25 pixels per line
+                                var newHeight = d3.max(levelWidth) * 30; // 25 pixels per line
                                 tree = tree.size([newHeight, viewerWidth]);
 
                                 // Compute the new tree layout.
@@ -858,7 +1110,7 @@ var keywords = "";
 
                                 // Set widths between levels based on maxLabelLength.
                                 nodes.forEach(function(d) {
-                                    d.y = (d.depth * (maxLabelLength * 10)); //maxLabelLength * 10px
+                                    d.y = (d.depth * (maxLabelLength * 3)); //maxLabelLength * 10px
                                     // alternatively to keep a fixed scale one can set a fixed depth per level
                                     // Normalize for fixed-depth by commenting out below line
                                     // d.y = (d.depth * 500); //500px per level.
@@ -1019,154 +1271,6 @@ var keywords = "";
 
 
                         //    *******************************************************************
-
-
-                    //    2222222222222222222222222222222222222222222222222222222222222222222222222222
-
-//                        var m = [20, 120, 20, 120],
-//                            w = 1280 - m[1] - m[3],
-//                            h = 800 - m[0] - m[2],
-//                            i = 0,
-//                            root;
-//
-//                        var tree = d3.layout.tree()
-//                            .size([h, w]);
-//
-//                        var diagonal = d3.svg.diagonal()
-//                            .projection(function(d) { return [d.y, d.x]; });
-//
-//                        var vis = d3.select("#body").append("svg:svg")
-//                            .attr("width", w + m[1] + m[3])
-//                            .attr("height", h + m[0] + m[2])
-//                            .append("svg:g")
-//                            .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
-//
-//
-//                            root = data.dataMap.graphJson;
-//                            root.x0 = h / 2;
-//                            root.y0 = 0;
-//
-//                            function toggleAll(d) {
-//                                if (d.children) {
-//                                    d.children.forEach(toggleAll);
-//                                    toggle(d);
-//                                }
-//                            }
-//
-//                            // Initialize the display to show a few nodes.
-//                            root.children.forEach(toggleAll);
-//                            toggle(root.children[0]);
-//                            toggle(root.children[1]);
-//                            toggle(root.children[2]);
-//                            // toggle(root.children[1].children[2]);
-//                            // toggle(root.children[9]);
-//                            // toggle(root.children[9].children[0]);
-//
-//                            update(root);
-//
-//                        function update(source) {
-//                            var duration = d3.event && d3.event.altKey ? 5000 : 500;
-//
-//                            // Compute the new tree layout.
-//                            var nodes = tree.nodes(root).reverse();
-//
-//                            // Normalize for fixed-depth.
-//                            nodes.forEach(function(d) { d.y = d.depth * 180; });
-//
-//                            // Update the nodes…
-//                            var node = vis.selectAll("g.node")
-//                                .data(nodes, function(d) { return d.id || (d.id = ++i); });
-//
-//                            // Enter any new nodes at the parent's previous position.
-//                            var nodeEnter = node.enter().append("svg:g")
-//                                .attr("class", "node")
-//                                .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-//                                .on("click", function(d) { toggle(d); update(d); });
-//
-//                            nodeEnter.append("svg:circle")
-//                                .attr("r", 1e-6)
-//                                .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-//
-//                            nodeEnter.append("svg:text")
-//                                .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
-//                                .attr("dy", ".35em")
-//                                .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-//                                .text(function(d) { return d.name; })
-//                                .style("fill-opacity", 1e-6);
-//
-//                            // Transition nodes to their new position.
-//                            var nodeUpdate = node.transition()
-//                                .duration(duration)
-//                                .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
-//
-//                            nodeUpdate.select("circle")
-//                                .attr("r", 4.5)
-//                                .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-//
-//                            nodeUpdate.select("text")
-//                                .style("fill-opacity", 1);
-//
-//                            // Transition exiting nodes to the parent's new position.
-//                            var nodeExit = node.exit().transition()
-//                                .duration(duration)
-//                                .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
-//                                .remove();
-//
-//                            nodeExit.select("circle")
-//                                .attr("r", 1e-6);
-//
-//                            nodeExit.select("text")
-//                                .style("fill-opacity", 1e-6);
-//
-//                            // Update the links…
-//                            var link = vis.selectAll("path.link")
-//                                .data(tree.links(nodes), function(d) { return d.target.id; });
-//
-//                            // Enter any new links at the parent's previous position.
-//                            link.enter().insert("svg:path", "g")
-//                                .attr("class", "link")
-//                                .attr("d", function(d) {
-//                                    var o = {x: source.x0, y: source.y0};
-//                                    return diagonal({source: o, target: o});
-//                                })
-//                                .transition()
-//                                .duration(duration)
-//                                .attr("d", diagonal);
-//
-//                            // Transition links to their new position.
-//                            link.transition()
-//                                .duration(duration)
-//                                .attr("d", diagonal);
-//
-//                            // Transition exiting nodes to the parent's new position.
-//                            link.exit().transition()
-//                                .duration(duration)
-//                                .attr("d", function(d) {
-//                                    var o = {x: source.x, y: source.y};
-//                                    return diagonal({source: o, target: o});
-//                                })
-//                                .remove();
-//
-//                            // Stash the old positions for transition.
-//                            nodes.forEach(function(d) {
-//                                d.x0 = d.x;
-//                                d.y0 = d.y;
-//                            });
-//                        }
-//
-//// Toggle children.
-//                        function toggle(d) {
-//                            if (d.children) {
-//                                d._children = d.children;
-//                                d.children = null;
-//                            } else {
-//                                d.children = d._children;
-//                                d._children = null;
-//                            }
-//                        }
-
-
-                        //    222222222222222222222222222222222222222222222222222222222222222222222222222
 
                     }
                 },

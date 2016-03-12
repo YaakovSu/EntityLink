@@ -132,7 +132,8 @@ hr {
 }
 
 .header_bg {
-    background: none repeat scroll 0 0 #76c7c0;
+    /*background: none repeat scroll 0 0 #76c7c0;*/
+    background: #444 url("../img/debut_dark.png") none repeat scroll;
     margin: 0;
     padding: 30px 0;
 }
@@ -161,15 +162,15 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out 0s;
-    background: none repeat scroll 0 0 #69AAAA;
+    background: none repeat scroll 0 0 #4F4F4F;
     border-radius: 4px;
     margin-left: 5px;
 }
 
 .menu li.activate a, .menu li a:hover {
-    background: #62A29E;
+    background: #D9B300;
     border-radius: 4px;
-    box-shadow: inset 0px -4px 0px #47817E;
+    box-shadow: inset 0px -4px 0px #796400;
 }
 
 .menu li:first-child {

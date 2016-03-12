@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="treeStyle.css"/>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/d3.layout.js"></script>
+    <script type="text/javascript" src="js/cloud.min.js"></script>
+  </head>
+  <body>
+
+  <div id="word_cloud">
+
+  </div>
+  <div id="pie">
+  </div>
+
+
+
+ <!--D3标签云-->
+   <script>
+        var fill = d3.scale.category20();
+        d3.layout.cloud().size([700, 400])
+            .words([
+              "教育公平", "小学择校", "农民工子弟", "高考", "教育公平", "高考", "中考",
+            "考研", "青年教师", "科研基金", "上学难", "教育政策", "小学教育", "教育腐败", ].map(function (d) {
+                return { text: d, size: 10 + Math.random() * 60 };
+            }))
+            .padding(5)
+            .rotate(function () { return ~~(Math.random() * 2) * 45; })
+            .font("Impact")
+            .fontSize(function (d) { return d.size; })
+            .on("end", draw)
+            .start();
+
+        function draw(words) {
+            d3.select("#word_cloud").append("svg")
+                .attr("width", 700)
+                .attr("height", 400)
+              .append("g")
+                .attr("transform", "translate(350,200)")
+              .selectAll("text")
+                .data(words)
+              .enter().append("text")
+                .style("font-size", function (d) { return d.size + "px"; })
+                .style("font-family", "Impact")
+                .style("fill", function (d, i) { return fill(i); })
+                .attr("text-anchor", "middle")
+                .attr("transform", function (d) {
+                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+                .text(function (d) { return d.text; });
+        }
+    </script>
+  </body>
+</html>

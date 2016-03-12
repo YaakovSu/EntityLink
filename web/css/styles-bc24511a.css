@@ -1,0 +1,89 @@
+@viewport{
+	width:device-width
+}
+
+
+@media screen and (min-width: 40em){
+	
+	.js .nav-collapse.closed{
+		max-height:none
+	}
+
+}
+
+
+section{
+	border-bottom:1px solid #999;
+	text-align:center;
+	padding:100px 0 0;
+	height:800px;
+	width:100%
+}
+
+
+header{
+	background:#f4421a;
+	position:fixed;
+	z-index:3;
+	width:100%;
+	left:0;
+	top:0
+}
+
+.logo{
+	-webkit-tap-highlight-color:transparent;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:55px;
+	padding:0 20px;
+	color:#fff;
+	float:left
+}
+
+.mask{
+	-webkit-transition:opacity 300ms;
+	transition:opacity 300ms;
+	background:rgba(0,0,0,0.5);
+	visibility:hidden;
+	position:fixed;
+	opacity:0;
+	z-index:2;
+	bottom:0;
+	right:0;
+	left:0;
+	top:0
+}
+
+.android .mask{
+	-webkit-transition:none;
+	transition:none
+}
+
+.js-nav-active .mask{
+	visibility:visible;
+	opacity:1
+}
+
+@media screen and (min-width: 40em){
+	.mask{
+		display:none !important;
+		opacity:0 !important
+	}
+}
+
+.fixed{
+	position:fixed;
+	width:100%;
+	left:0;
+	top:0
+}
+
+.nav-collapse *{
+	box-sizing:border-box
+}
+
+
+.nav-collapse a:active{
+	background:#b73214
+}
+

@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>跨语言实体查询系统</title>
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="css/policy.css" rel="stylesheet" />
+    <link href="css/layoutit.css" rel='stylesheet' type='text/css' />
+    <link href="css/tanchuang.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap-combined.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/myd3.css" rel='stylesheet' type='text/css' />
+    <link href="css/indexnew.css" rel='stylesheet' type='text/css' />
+    <!--<link type="text/css" rel="stylesheet" href="css/treeNode.css"/>-->
+
+    <script src="js/d3.v3.min.js"></script>
+    <!--<script src="js/dndTree.js"></script>-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/d3.layout.js"></script>
+    <script type="text/javascript" src="js/jquery.htmlClean.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="irjs/indexnew.js"></script>
+    <script type="text/javascript" src="irjs/bar.js"></script>
+    <script type="text/javascript" src="irjs/chord.js"></script>
+    <script type="text/javascript" src="irjs/echarts.js"></script>
+    <script type="text/javascript" src="irjs/force.js"></script>
+    <script type="text/javascript" src="irjs/funnel.js"></script>
+    <script type="text/javascript" src="irjs/gauge.js"></script>
+    <script type="text/javascript" src="irjs/line.js"></script>
+    <script type="text/javascript" src="irjs/pie.js"></script>
+    <script src="js/echarts-all.js"></script>
+
+
+
+
+
+</head>
+<body>
+    <div class="header_bg">
+        <div class="logo">
+            <a href="index.html"><img alt="" src="img/logo.png"/></a>
+        </div>
+        <div class="menu" align="left">
+        <nav>
+            <ul class="top_list list-unstyled">
+                <li><a href="aboutMe.html">关于我们</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    <div id="container">
+        <div id="wrapper">
+            <div id="top-search">
+                <div>
+                    <input type="text" class="search-input" />
+                    <!--<button id="web" class="btn btn-small btn-inverse" type="button">网页</button>-->
+                    <!--<button id="forum" class="btn btn-small btn-inverse" type="button">论坛</button>-->
+                    <button id="s" class="search-btn"><span>搜索</span></button>
+                    <!--<a href="#" onclick="javascript:CM.search.enter_detail()">事件详解>></a>-->
+                </div>
+            </div>
+            
+            <div id="search-box">
+                <!--<h1>Config Diagnostic</h1>-->
+                <div id="hint-text">请输入你想<b>搜索</b>的<b>中文查询词和上下文</b></div>
+                <div id="search-form">
+                    <input type="text" class="search-input" />
+                    <button id="s" class="search-btn" ><span>搜索</span></button>
+                </div>
+                <!--<div id="hint-text">-->
+                    <!--请选择<b>搜索类型</b>：-->
+                    <!--<button id="web" class="btn btn-small btn-inverse" type="button">网页</button>-->
+                    <!--<button id="forum" class="btn btn-small btn-inverse" type="button">论坛</button>-->
+                <!--</div>-->
+                <p class="err"></p>               
+            </div>
+            <div id="content">
+                <p class="err"></p>
+                <div class="loading"></div>
+            </div>
+
+            <!--<div>-->
+                <!--<table id="mytable" cellspacing="0" style="margin: auto">-->
+                    <!--<caption></caption>-->
+                    <!--<tr id="sun">-->
+                        <!--<th scope="col">一</th>-->
+                        <!--<th scope="col">LinkTo</th>-->
+                    <!--</tr>-->
+                <!--</table>-->
+            <!--</div>-->
+        </div>
+        <!--<div id="word_cloud">
+
+        </div>
+        <div id="pie">
+
+        </div>-->
+    </div>
+    <!--<div class="footer1_bg">-->
+        <!--<div class="copy">-->
+            <!--<p class="link">Copyright &copy; 2014.华东师范大学.<a target="_blank" href="http://www.ecnu.edu.cn/"></a></p>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <script type="text/javascript">
+        $.ajaxSetup({
+            cache: false
+        });
+    </script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/default.js"></script>
+    <script src="js/echarts-all.js"></script>
+    <!--<script type="text/javascript" src="js/d3.js"></script>-->
+    <!--<script type="text/javascript" src="js/d3.layout.cloud.js"></script>-->
+    <!--D3标签云-->
+<!--    <script>
+        var fill = d3.scale.category20();
+        d3.layout.cloud().size([700, 400])
+            .words([
+              "教育公平", "小学择校", "农民工子弟", "高考", "教育公平", "高考", "中考",
+            "考研", "青年教师", "科研基金", "上学难", "教育政策", "小学教育", "教育腐败", ].map(function (d) {
+                return { text: d, size: 10 + Math.random() * 60 };
+            }))
+            .padding(5)
+            .rotate(function () { return ~~(Math.random() * 2) * 45; })
+            .font("Impact")
+            .fontSize(function (d) { return d.size; })
+            .on("end", draw)
+            .start();
+
+        function draw(words) {
+            d3.select("#word_cloud").append("svg")
+                .attr("width", 700)
+                .attr("height", 400)
+              .append("g")
+                .attr("transform", "translate(350,200)")
+              .selectAll("text")
+                .data(words)
+              .enter().append("text")
+                .style("font-size", function (d) { return d.size + "px"; })
+                .style("font-family", "Impact")
+                .style("fill", function (d, i) { return fill(i); })
+                .attr("text-anchor", "middle")
+                .attr("transform", function (d) {
+                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+                .text(function (d) { return d.text; });
+        }
+    </script>-->
+    <script type="text/javascript" src="js/common.js"></script>
+
+
+    <script type="text/javascript" src="js/d3.layout.cloud.js"></script>
+
+</body>
+</html>

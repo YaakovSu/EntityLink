@@ -7,10 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aacf1f8d-f37f-4aa9-b923-466fe59c1762" name="Default" comment="已经可以生成Json文件了，就差界面了">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\classes\mytools\generateDisambigationMap.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\target\classes\mytools\generateDisambigationMap.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wikiclean/DumpEnWikiToPlainText.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wikiclean/MyCleanText.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wikiclean/WikiClean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wikiclean/WikiCleanBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wikiclean/WikipediaBz2DumpInputStream.java" />
+      <change type="DELETED" beforePath="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF\lib\commons-io-2.0.1.jar" afterPath="" />
+      <change type="MOVED" beforePath="C:\youngsu\EntityLinkFinal\.idea\libraries\Maven__commons_io_commons_io_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/nlp/BaikeParser.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/nlp/BaikeParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/nlp/BaikeParser.class" afterPath="$PROJECT_DIR$/target/classes/edu/nlp/BaikeParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/CalNodeFunctions.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/CalNodeFunctions.class" />
@@ -25,16 +34,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/GetPig_OutlinkText.class" afterPath="$PROJECT_DIR$/target/classes/mytools/GetPig_OutlinkText.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Myutil.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Myutil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Myutil.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Myutil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Patterns.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/edu/util/Patterns.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/util/Patterns.class" afterPath="$PROJECT_DIR$/target/classes/edu/util/Patterns.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/RandomChoseTestSets.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/RandomChoseTestSets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/RandomChoseTestSets.class" afterPath="$PROJECT_DIR$/target/classes/mytools/RandomChoseTestSets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMData2LogisticData.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMData2LogisticData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/SVMData2LogisticData.class" afterPath="$PROJECT_DIR$/target/classes/mytools/SVMData2LogisticData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMResultRank.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/SVMResultRank.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mytools/SVMResultRank.class" afterPath="$PROJECT_DIR$/target/classes/mytools/SVMResultRank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/action/SearchAction.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/action/SearchAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/action/SearchAction.class" afterPath="$PROJECT_DIR$/target/classes/action/SearchAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/SearchDriver.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/SearchDriver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/SearchDriver.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/SearchDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/testFunction/WikiPageParser.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/testFunction/WikiPageParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/testFunction/WikiPageParser.class" afterPath="$PROJECT_DIR$/target/classes/testFunction/WikiPageParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/WriteNodeFunction2AllPairs.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/lfg/WriteNodeFunction2AllPairs.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lfg/WriteNodeFunction2AllPairs.class" afterPath="$PROJECT_DIR$/target/classes/lfg/WriteNodeFunction2AllPairs.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/createCombinInlinkNames.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/mytools/createCombinInlinkNames.class" />
@@ -87,8 +98,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lfg/test_GetTrainningData.class" afterPath="$PROJECT_DIR$/target/classes/lfg/test_GetTrainningData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/wc2we.class" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/WEB-INF/classes/rsvm/wc2we.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/rsvm/wc2we.class" afterPath="$PROJECT_DIR$/target/classes/rsvm/wc2we.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/util/Patterns.java" afterPath="$PROJECT_DIR$/src/main/java/edu/util/Patterns.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java" afterPath="$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EntityLinkFinal.iml" afterPath="$PROJECT_DIR$/EntityLinkFinal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/SearchAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/SearchAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" afterPath="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java" afterPath="$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/css/common.css" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/common.css" afterPath="$PROJECT_DIR$/web/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/css/default.css" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/default.css" afterPath="$PROJECT_DIR$/web/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/default.js" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/default.js" afterPath="$PROJECT_DIR$/web/js/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/dndTree.js" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/js/dndTree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/dndTree.js" afterPath="$PROJECT_DIR$/web/js/dndTree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/css/myd3.css" afterPath="$PROJECT_DIR$/out/artifacts/EntityLinkFinal_war_exploded/css/myd3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/myd3.css" afterPath="$PROJECT_DIR$/web/css/myd3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EntityLinkFinal.iws" />
@@ -113,33 +140,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchAction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/action/SearchAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Contant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.59286773">
+              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Myutil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Myutil.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+            <state vertical-scroll-proportion="-12.892858">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -149,22 +164,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
+              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.xml">
+      <file leaf-file-name="MyCleanText.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/MyCleanText.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-              <folding />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="WikipediaBz2DumpInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/WikipediaBz2DumpInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -172,65 +199,61 @@
         <entry file="file://$PROJECT_DIR$/web/js/default.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="398" column="28" selection-start-line="398" selection-start-column="26" selection-end-line="398" selection-end-column="28" />
+              <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1453094181280" expanded="true" signature="8329:8346" placeholder="..." />
-                <marker date="1453094181280" expanded="true" signature="8708:8725" placeholder="..." />
-                <marker date="1453094181280" expanded="true" signature="8910:8922" placeholder="..." />
-                <marker date="1453094181280" expanded="true" signature="10516:10533" placeholder="..." />
-                <marker date="1453094181280" expanded="true" signature="10633:10645" placeholder="..." />
+                <marker date="1457772218870" expanded="true" signature="8094:8108" placeholder="..." />
+                <marker date="1457772218870" expanded="true" signature="8164:8181" placeholder="..." />
+                <marker date="1457772218870" expanded="true" signature="8556:8570" placeholder="..." />
+                <marker date="1457772218870" expanded="true" signature="8741:8767" placeholder="..." />
+                <marker date="1457772218870" expanded="true" signature="8875:8890" placeholder="..." />
+                <marker date="1457772218870" expanded="true" signature="9102:9116" placeholder="..." />
+                <marker date="1457772218870" expanded="true" signature="11475:11499" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qc2wc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
+      <file leaf-file-name="WikiClean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/WikiClean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WikiPageParser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61325115">
-              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1001#1002#0" expanded="false" />
+                <element signature="e#1032#1033#0" expanded="false" />
+                <element signature="e#1067#1068#0" expanded="false" />
+                <element signature="e#1093#1094#0" expanded="false" />
+                <element signature="e#1141#1142#0" expanded="false" />
+                <element signature="e#1173#1174#0" expanded="false" />
+                <element signature="e#1209#1210#0" expanded="false" />
+                <element signature="e#1236#1237#0" expanded="false" />
+                <element signature="e#1287#1288#0" expanded="false" />
+                <element signature="e#1313#1314#0" expanded="false" />
+                <element signature="e#1352#1353#0" expanded="false" />
+                <element signature="e#1378#1379#0" expanded="false" />
+                <element signature="e#5671#5672#0" expanded="false" />
+                <element signature="e#5723#5724#0" expanded="false" />
+                <element signature="e#5915#5916#0" expanded="false" />
+                <element signature="e#5965#5966#0" expanded="false" />
+                <element signature="e#6080#6081#0" expanded="false" />
+                <element signature="e#6129#6130#0" expanded="false" />
+                <element signature="e#6259#6260#0" expanded="false" />
+                <element signature="e#6315#6316#0" expanded="false" />
+                <element signature="e#6495#6496#0" expanded="false" />
+                <element signature="e#6542#6543#0" expanded="false" />
+                <element signature="e#7427#7428#0" expanded="false" />
+                <element signature="e#7491#7492#0" expanded="false" />
+                <element signature="e#10221#10222#0" expanded="false" />
+                <element signature="e#10303#10304#0" expanded="false" />
+                <element signature="e#10659#10660#0" expanded="false" />
+                <element signature="e#10710#10711#0" expanded="false" />
+                <element signature="e#10887#10888#0" expanded="false" />
+                <element signature="e#10942#10943#0" expanded="false" />
+                <element signature="e#11763#11764#0" expanded="false" />
+                <element signature="e#11823#11824#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generateDisambigationMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding>
-                <marker date="1453274787633" expanded="true" signature="465:574" placeholder="/**...*/" />
-                <marker date="1453274787633" expanded="true" signature="719:1362" placeholder="{...}" />
-                <marker date="1453274787633" expanded="false" signature="960:987" placeholder="&lt;~&gt;" />
-                <marker date="1453274787633" expanded="true" signature="1560:1906" placeholder="{...}" />
-                <marker date="1453274787633" expanded="true" signature="1972:2751" placeholder="{...}" />
-                <marker date="1453274787633" expanded="false" signature="2320:2328" placeholder="&lt;~&gt;" />
-                <marker date="1453274787633" expanded="true" signature="2833:3607" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Patterns.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/Patterns.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="23" selection-end-column="81" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -266,8 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/action/HelloAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/action/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/action/JsonAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/util/opMysql.java" />
@@ -290,7 +311,6 @@
         <option value="$PROJECT_DIR$/web/testD3.html" />
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/yagoJson.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/GraphJson.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/util/Myutil.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/JsonResilt.java" />
@@ -301,18 +321,25 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/Child.java" />
         <option value="$PROJECT_DIR$/web/data/flare.json" />
         <option value="$PROJECT_DIR$/web/css/treeNode.css" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/rsvm/wc2we.java" />
         <option value="$PROJECT_DIR$/web/aboutMe.html" />
         <option value="$PROJECT_DIR$/src/main/java/edu/util/Contant.java" />
-        <option value="$PROJECT_DIR$/web/js/default.js" />
-        <option value="$PROJECT_DIR$/src/main/java/action/SearchAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/baike/ZhEnPair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/util/Patterns.java" />
         <option value="$PROJECT_DIR$/src/main/java/mytools/generateDisambigationMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/wikiclean/WikiLanguage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wikiclean/WikiCleanBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wikiclean/DumpEnWikiToPlainText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wikiclean/WikipediaBz2DumpInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wikiclean/myCleanText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wikiclean/WikiClean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/action/SearchAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/js/default.js" />
       </list>
     </option>
   </component>
@@ -416,6 +443,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -521,7 +550,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="irjs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,7 +568,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,20 +616,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testFunction" />
+              <option name="myItemId" value="wikiclean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityLinkFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityLinkFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsvm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityLinkFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityLinkFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InfoboxExtractor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InfoboxExtractor/lib" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -616,20 +695,21 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../InfoboxExtractor/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\youngsu\EntityLinkFinal\src\main\java\wikiclean" />
       <recent name="C:\youngsu\EntityLinkFinal\web\img" />
       <recent name="C:\youngsu\EntityLinkFinal\web\js" />
       <recent name="C:\youngsu\EntityLinkFinal\web\css" />
       <recent name="C:\youngsu\EntityLinkFinal\web" />
-      <recent name="C:\youngsu\EntityLinkFinal\out\artifacts\EntityLinkFinal_war_exploded\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\youngsu\EntityLinkFinal\web\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WikiPageParser">
+  <component name="RunManager" selected="Tomcat Server.Tomcat8">
     <configuration default="false" name="SearchDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -658,6 +738,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="testFunction.WikiPageParser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="EntityLinkFinal" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyCleanText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="wikiclean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="wikiclean.MyCleanText" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1001,15 +1101,17 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat8" />
       <item index="1" class="java.lang.String" itemvalue="Application.SearchDriver" />
       <item index="2" class="java.lang.String" itemvalue="Application.WikiPageParser" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MyCleanText" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.WikiPageParser" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SearchDriver" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.MyCleanText" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WikiPageParser" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SearchDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -1039,6 +1141,10 @@
       <workItem from="1453094340260" duration="1982000" />
       <workItem from="1453267585402" duration="10046000" />
       <workItem from="1453284120102" duration="573000" />
+      <workItem from="1453464051150" duration="251000" />
+      <workItem from="1456039959230" duration="21352000" />
+      <workItem from="1456665874343" duration="1390000" />
+      <workItem from="1457407797213" duration="12590000" />
     </task>
     <task id="LOCAL-00001" summary="终于在git上建web了">
       <created>1452080202302</created>
@@ -1062,7 +1168,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126132000" />
+    <option name="totallyTimeSpent" value="161715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1078,9 +1184,9 @@
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3237548" sideWeight="0.81694645" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.4940048" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.4940048" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1117,7 +1223,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wikiclean/MyCleanText.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1126,98 +1252,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/util/opMysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mytools/traintools/createTestDataForSVMTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323398">
-          <caret line="187" column="15" selection-start-line="187" selection-start-column="15" selection-end-line="187" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mytools/traintools/createTestDataForRankingSVMTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="21" selection-start-line="88" selection-start-column="7" selection-end-line="93" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-2.1.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.413284">
-          <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7712177">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/EnBaike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2804428">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/Baike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4907749">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/nlp/BaikeParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="364" column="5" selection-start-line="328" selection-start-column="4" selection-end-line="364" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/echarts-all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59594095">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1289,14 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,13 +1403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/treeStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1416,21 +1435,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/default.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="398" column="28" selection-start-line="398" selection-start-column="26" selection-end-line="398" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1453094181280" expanded="true" signature="8329:8346" placeholder="..." />
-            <marker date="1453094181280" expanded="true" signature="8708:8725" placeholder="..." />
-            <marker date="1453094181280" expanded="true" signature="8910:8922" placeholder="..." />
-            <marker date="1453094181280" expanded="true" signature="10516:10533" placeholder="..." />
-            <marker date="1453094181280" expanded="true" signature="10633:10645" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/baike/ZhEnPair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323398">
@@ -1449,7 +1453,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#463#479#0" expanded="false" />
+            <element signature="e#3900#3908#0" expanded="false" />
+            <element signature="e#4956#4972#0" expanded="false" />
+            <element signature="e#5474#5482#0" expanded="false" />
+            <element signature="e#5561#5569#0" expanded="false" />
+            <element signature="e#6930#6946#0" expanded="false" />
+            <element signature="e#7006#7022#0" expanded="false" />
+            <element signature="e#7092#7117#0" expanded="false" />
+            <element signature="e#8194#8202#0" expanded="false" />
+            <element signature="e#8691#8699#0" expanded="false" />
+            <element signature="e#11095#11122#0" expanded="false" />
+            <element signature="e#11177#11596#0" expanded="false" />
+            <element signature="e#11595#11596#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,33 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/action/SearchAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="23" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,25 +1490,206 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <marker date="1453274787633" expanded="true" signature="465:574" placeholder="/**...*/" />
-            <marker date="1453274787633" expanded="true" signature="719:1362" placeholder="{...}" />
-            <marker date="1453274787633" expanded="false" signature="960:987" placeholder="&lt;~&gt;" />
-            <marker date="1453274787633" expanded="true" signature="1560:1906" placeholder="{...}" />
-            <marker date="1453274787633" expanded="true" signature="1972:2751" placeholder="{...}" />
-            <marker date="1453274787633" expanded="false" signature="2320:2328" placeholder="&lt;~&gt;" />
-            <marker date="1453274787633" expanded="true" signature="2833:3607" placeholder="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/qc2wc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testFunction/WikiPageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61325115">
-          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="113" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.433333">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/WikiCleanBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/DumpEnWikiToPlainText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/JsonAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19645494">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/WikipediaBz2DumpInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274958">
+          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/ASTMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3485114">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274958">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/OgnlRuntime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274958">
+          <caret line="856" column="0" selection-start-line="856" selection-start-column="0" selection-end-line="856" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/WikiClean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1001#1002#0" expanded="false" />
+            <element signature="e#1032#1033#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1093#1094#0" expanded="false" />
+            <element signature="e#1141#1142#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1209#1210#0" expanded="false" />
+            <element signature="e#1236#1237#0" expanded="false" />
+            <element signature="e#1287#1288#0" expanded="false" />
+            <element signature="e#1313#1314#0" expanded="false" />
+            <element signature="e#1352#1353#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+            <element signature="e#5671#5672#0" expanded="false" />
+            <element signature="e#5723#5724#0" expanded="false" />
+            <element signature="e#5915#5916#0" expanded="false" />
+            <element signature="e#5965#5966#0" expanded="false" />
+            <element signature="e#6080#6081#0" expanded="false" />
+            <element signature="e#6129#6130#0" expanded="false" />
+            <element signature="e#6259#6260#0" expanded="false" />
+            <element signature="e#6315#6316#0" expanded="false" />
+            <element signature="e#6495#6496#0" expanded="false" />
+            <element signature="e#6542#6543#0" expanded="false" />
+            <element signature="e#7427#7428#0" expanded="false" />
+            <element signature="e#7491#7492#0" expanded="false" />
+            <element signature="e#10221#10222#0" expanded="false" />
+            <element signature="e#10303#10304#0" expanded="false" />
+            <element signature="e#10659#10660#0" expanded="false" />
+            <element signature="e#10710#10711#0" expanded="false" />
+            <element signature="e#10887#10888#0" expanded="false" />
+            <element signature="e#10942#10943#0" expanded="false" />
+            <element signature="e#11763#11764#0" expanded="false" />
+            <element signature="e#11823#11824#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wikiclean/MyCleanText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index_测试标签云.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4206471">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/default2016.2.22.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="221" column="58" selection-start-line="221" selection-start-column="58" selection-end-line="221" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/irjs/bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rsvm/SearchDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.892858">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
+          <folding>
+            <marker date="1457772218870" expanded="true" signature="8094:8108" placeholder="..." />
+            <marker date="1457772218870" expanded="true" signature="8164:8181" placeholder="..." />
+            <marker date="1457772218870" expanded="true" signature="8556:8570" placeholder="..." />
+            <marker date="1457772218870" expanded="true" signature="8741:8767" placeholder="..." />
+            <marker date="1457772218870" expanded="true" signature="8875:8890" placeholder="..." />
+            <marker date="1457772218870" expanded="true" signature="9102:9116" placeholder="..." />
+            <marker date="1457772218870" expanded="true" signature="11475:11499" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/SearchAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59286773">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>

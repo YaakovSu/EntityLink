@@ -1,12 +1,12 @@
 package rsvm;
 
 import edu.Constant;
-import edu.Language;
 import edu.baike.Yago;
 import edu.nlp.ECDic;
 import edu.util.Contant;
 import edu.util.Myutil;
 import edu.util.opMysql;
+import wikiclean.MyCleanText;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -37,7 +37,7 @@ public class SearchDriver {
             String zhName = iterator.next();
             String enName = enNames.get(zhName);
             System.out.println(enName);
-            Yago yago = search.getYagoGraph(enName);
+            Yago yago = search.getYagoGraph(enName,zhName);
             yagos.add(yago);
         }
         Myutil.deleteFile(Constant.QCWE_PREDICT);
@@ -49,8 +49,8 @@ public class SearchDriver {
 
     }
 
-    public Yago getYagoGraph(String enName) throws SQLException {
-        Connection conn = opMysql.connSQL(Contant.enmysqlurl);
+    public Yago getYagoGraph(String enName,String zhName) throws SQLException {
+        Connection conn = opMysql.connSQL(Contant.zhmysqlurl);
         Yago yago = new Yago();
         yago.setName(enName);
 
@@ -59,7 +59,8 @@ public class SearchDriver {
         ArrayList<String> testType = we2YagoFact.getAllNameBandRelations(enName, Contant.yagotypes);
         ArrayList<String> testWikipediainfo = we2YagoFact.getAllAssociateNameRelation(enName, Contant.yagowikipediainfo);
 
-        yago.setText(findText(conn,enName));
+//        yago.setText(findText(conn,enName));
+        yago.setText(findText(conn,zhName));
         conn.close();
         yago.setResult(testResult);
         yago.setType(testType);
@@ -83,9 +84,28 @@ public class SearchDriver {
 
     private String findText(Connection conn,String title) throws SQLException {
         String text = "";
-        text = doTextEn(conn,title);
+//        text = doTextEn(conn, title);
+        text = doTextZh(conn, title);
+        MyCleanText mct = new MyCleanText();
+        text = mct.getCleanText(text);
+
+        System.out.println(text);
 
         return text;
+    }
+
+    private String doTextZh(Connection conn,String title) throws SQLException {
+        String texten = "";
+        if (!title.contains("'")) {
+            String sqlen = "SELECT * FROM zhwiki.pagemapline as a,zhwiki.page as b where a.name='" + title + "' and a.pageId=b.id;";
+
+            ResultSet resultSeten = opMysql.selectSQL(conn, sqlen);
+            while (resultSeten.next()) {
+                texten = resultSeten.getString("text");
+            }
+        }
+
+        return texten;
     }
 
     private String doTextEn(Connection conn,String title) throws SQLException {

@@ -1,0 +1,26 @@
+.di{ height:0px;  width:100%; background-image: url(../imagenew/di.png) }
+.tips{ font-family:"微软雅黑"; font-size:16px; margin-left:30px; padding-top:9px; text-align:left; }
+.tips a{ color:black; }
+.totop{ position:fixed; right:5px; bottom:195px; }
+.di a{ color:#fff; }
+
+.cixingboxt{ height:402px; width:608px; margin-left:0px; margin-top:0px; }
+.input{ width:1130px; height:280px; margin-left:18px; margin-top:13px; border:2 ; background-color:#fff; }
+
+.input:HOVER{
+-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+border-color:rgba(141,39,142,.75);
+-webkit-box-shadow:0 0 18px rgba(111,1,32,3);
+}
+
+.b1{ font-size:18px; color:#ecebeb; font-family:"微软雅黑"; font-weight:bold}
+.kuai01{ margin-left:80px; float:left; height:112px}
+.kuai02{ margin-left:80px; float:left; }
+.kuai03{ margin-left:100px; float:left; }
+.kuai04{ float:left; margin-left:30px; }
+
+.caidan{ overflow:hidden; width:1020px; margin:0 auto; padding-top:20px }
+.fenjie{  margin:0 auto;width:1120px; height:2px; background-color:#696f7f; margin-top:10px }
+.b2{ margin-top:10px; font-family:"微软雅黑"; font-size:12px; color:#bdbdbd }
+.b3{ margin-top:10px ;font-family:"微软雅黑"; font-size:12px; color:#bdbdbd }
+.diwen{ width:1120px; margin:0 auto; margin-top:8px; font-family:"微软雅黑"; font-size:12px; color:#bdbdbd; text-align:center; }

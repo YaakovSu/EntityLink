@@ -304,7 +304,7 @@ treeJSON = d3.json("data/flare.json", function(error, treeData) {
         scale = zoomListener.scale();
         x = -source.y0;
         y = -source.x0;
-        x = x * scale + viewerWidth / 2;
+        x = x * scale + viewerWidth / 4;
         y = y * scale + viewerHeight / 2;
         d3.select('g').transition()
             .duration(duration)
@@ -352,7 +352,7 @@ treeJSON = d3.json("data/flare.json", function(error, treeData) {
             }
         };
         childCount(0, root);
-        var newHeight = d3.max(levelWidth) * 25; // 25 pixels per line  
+        var newHeight = d3.max(levelWidth) * 30; // 25 pixels per line  
         tree = tree.size([newHeight, viewerWidth]);
 
         // Compute the new tree layout.
@@ -361,7 +361,7 @@ treeJSON = d3.json("data/flare.json", function(error, treeData) {
 
         // Set widths between levels based on maxLabelLength.
         nodes.forEach(function(d) {
-            d.y = (d.depth * (maxLabelLength * 10)); //maxLabelLength * 10px
+            d.y = (d.depth * (maxLabelLength * 3)); //maxLabelLength * 10px
             // alternatively to keep a fixed scale one can set a fixed depth per level
             // Normalize for fixed-depth by commenting out below line
             // d.y = (d.depth * 500); //500px per level.

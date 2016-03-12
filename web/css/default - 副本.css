@@ -1,0 +1,237 @@
+/*
+ * ConfigMaster default page css
+ * http://ConfigMaster/
+ *
+ * Copyright 2014 Microsoft Corporation
+ *
+ * Date: 2014-08-24T23:02Z
+ */
+
+/*body {
+    background: #0082d4;
+}*/
+
+
+/*common.css*/
+#count {
+    font-size: 14px;
+
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    /*top: 100px;
+    left: 0;*/
+}
+#top-search {
+    /*background: #0068b7;*/
+    display: none;
+    padding: 5px 0;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+#top-search a{
+    display:block;
+}
+
+#top-search div {
+/*    margin: 0 auto;*/
+    width: 600px;
+}
+
+#search-box {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px #00509b;
+    height: 150px;
+    padding: 20px;
+    width: 700px;
+    margin: 100px auto 0;
+    
+}
+
+#search-box h1 {
+    color: #002568;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#search-box .err {
+    display: none;
+    margin-top: 5px;
+}
+
+#hint-text {
+    color: #8d8d8d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#hint-text button {
+    background: none repeat scroll 0 0 #69aaaa; /*#62a29e*/
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/*#hint-text button:hover,#hint-text button.active {
+    background: #62A29E;
+    border-radius:4px;
+	box-shadow: inset 0px -4px 0px #47817E;
+}*/
+
+
+#web {
+    background: none repeat scroll 0 0 #62a29e;
+    color: #fff;
+}
+
+#forum {
+    background: none repeat scroll 0 0 #62a29e;
+    color: #fff;
+}
+
+#content {
+    background: #fff;
+    display: none;
+    margin: 0 9%;
+    min-width: 500px;
+    width: 45%;
+}
+
+#content .err {
+    display: none;
+    padding: 30px;
+}
+
+#content .loading {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 50px;
+}
+
+#pager {
+    margin-left: 50px;
+}
+
+#pager ul {
+    overflow: hidden;
+}
+
+#pager li {
+    border: 3px solid #fff;
+    cursor: pointer;
+    float: left;
+    height: 34px;
+    line-height: 30px;
+    margin: 0 5px;
+    width: 34px;
+    text-align: center;
+}
+
+#pager .hover {
+    background: #f4f4f4;
+}
+
+#pager .current {
+    border-color: #ededed;
+    cursor: default;
+}
+
+#pager .prev,
+#pager .next {
+    border: none;
+    height: 30px;
+    margin: 6px 0 0;
+    width: 30px;
+}
+
+#pager .prev {
+    background: url(../img/prev.png) no-repeat;
+}
+
+#pager .next {
+    background: url(../img/next.png) no-repeat;
+}
+
+#pager .prev.hover {
+    background: url(../img/prev_hover.png) no-repeat;
+}
+
+#pager .next.hover {
+    background: url(../img/next_hover.png) no-repeat;
+}
+
+#result-list {
+    margin-left: 50px;
+    padding: 20px 30px 0 0;
+}
+
+#result-list .result-item {
+}
+
+#result-list .highlight {
+    font-weight: bold;
+}
+
+#result-list #title {
+    font-size: 19px;
+}
+
+#result-list .date {
+    font-size: 14px;
+}
+
+#result-list .category {
+    border-radius: 4px;
+    padding: 4px 9px;
+    background-color: #eff6fa;
+    color: #259;
+    margin-left: 10px;
+    font-size: 12px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#result-list .category:hover {
+    background-color: #259;
+    color: #fff;
+}
+
+#result-list .resource {
+    font-size: 13px;
+    color: grey;
+}
+
+#result-list .excerpt {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 0;
+}
+
+#result-list .abs {
+    font-size: 14px;
+}
+
+#pie {
+    width: 600px;
+    height: 400px;
+    /*margin-left:52%;
+    margin-top:70px;*/
+    position: absolute;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+/*#word_cloud{
+    margin-left:47%;
+    width:600px;
+    height:300px;
+}*/
+
+.footer1_bg {
+    position: absolute;
+}

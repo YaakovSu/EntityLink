@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>跨语言实体查询系统</title>
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/policy.css" rel="stylesheet" />
+    <link href="css/layoutit.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap-combined.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/indexnew.css" rel='stylesheet' type='text/css' />
+<!-- from: http://blog.csdn.net/huozi07/article/details/48177079 -->
+<!-- ciyu css -->
+    <link rel="stylesheet" type="text/css" href="css/miaov_style.css" /> 
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.htmlClean.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="irjs/indexnew.js"></script>
+    <script type="text/javascript" src="irjs/bar.js"></script>
+    <script type="text/javascript" src="irjs/chord.js"></script>
+    <script type="text/javascript" src="irjs/echarts.js"></script>
+    <script type="text/javascript" src="irjs/force.js"></script>
+    <script type="text/javascript" src="irjs/funnel.js"></script>
+    <script type="text/javascript" src="irjs/gauge.js"></script>
+    <script type="text/javascript" src="irjs/line.js"></script>
+    <script type="text/javascript" src="irjs/pie.js"></script>
+     <script src="js/d3.v3.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/echarts-all.js"></script>
+<!--总体分析饼图-->
+<script src="js/echarts-all.js"></script>
+<script type="text/javascript" src="js/policy.js"></script>
+
+
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="js/d3.layout.cloud.js"></script>
+<!-- ciyun script -->
+<!-- <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>  
+ -->
+ <script type="text/javascript" src="irjs/miaov.js"></script> 
+
+
+
+</body>
+</html>

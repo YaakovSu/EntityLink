@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>跨语言实体查询系统</title>
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/policy.css" rel="stylesheet" />
+    <link href="css/layoutit.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap-combined.min.css" rel='stylesheet' type='text/css' />
+    <link href="css/indexnew.css" rel='stylesheet' type='text/css' />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.htmlClean.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="irjs/indexnew.js"></script>
+    <script type="text/javascript" src="irjs/bar.js"></script>
+    <script type="text/javascript" src="irjs/chord.js"></script>
+    <script type="text/javascript" src="irjs/echarts.js"></script>
+    <script type="text/javascript" src="irjs/force.js"></script>
+    <script type="text/javascript" src="irjs/funnel.js"></script>
+    <script type="text/javascript" src="irjs/gauge.js"></script>
+    <script type="text/javascript" src="irjs/line.js"></script>
+    <script type="text/javascript" src="irjs/pie.js"></script>
+     <script src="js/d3.v3.min.js"></script>
+
+
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="box3">
+            <div class="shuru">
+                 <div class="wenbenxianshi">
+                                <img src="imagenew/biaoti01.png">
+                                <a href="javascript:void(0);" style="display:table;">
+                                    <img id="tb2" class="wendang0t" src="imagenew/tubiaoxg.png">
+                                </a>
+                                <a href="javascript:void(0);" style="display:table;">
+                                    <img id="wb2" class="wendang1t" src="imagenew/wenbenxg.png">
+                                </a>
+                    </div>
+                <div class="box4">
+                    <!--<textarea class="input"></textarea>-->
+                     <div id="stcq1" class="cixingboxt" style="display: none;">
+                         <textarea class="input">展示中文页面</textarea>   
+                    </div>
+                    <div id="stcq2" class="cixingboxt" style="display: block;">
+                        <textarea class="input">展示英文页面</textarea>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div class="fenxi">
+                    <img src="imagenew/fenlan.png">
+                </div>
+                <div id="nav" style="position: absolute; top: 623px;">
+                    <div class="shudaohang"> 
+                        <div id="menu1" class="kuai">
+                            <img class="anniu01" src="imagenew/tubiao01.png">
+                            <a href="#box-1" class="a1">分词标注</a>
+                        </div>
+                        <div id="menu2" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao02.png">
+                            <a href="#box-2" class="a1">实体抽取</a>
+                        </div>
+                        <div id="menu3" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao03.png">
+                            <a href="#box-3" class="a1">词频统计</a>
+                        </div>
+                        <div id="menu4" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao04.png">
+                            <a href="#box-4" class="a1">文本分类</a>
+                        </div>
+                        <div id="menu5" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao05.png">
+                            <a href="#box-5" class="a1">情感分析</a>
+                        </div>
+                        <div id="menu6" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao06.png">
+                            <a href="#box-6" class="a1">关键词提取</a>
+                        </div>
+                        <div id="menu7" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao07.png">
+                            <a href="#box-7" class="a1">Word2vec</a>
+                        </div>
+                        <div id="menu8" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao08.png">
+                            <a href="#box-8" class="a1">依存文法</a>
+                        </div>
+                        <div id="menu9" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao09.png">
+                            <a href="#box-9" class="a1">繁简转换</a>
+                        </div>
+                        <div id="menu10" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao10.png">
+                            <a href="#box-10" class="a1">自动注音</a>
+                        </div>
+                        <div id="menu11" class="anniu02">
+                            <img class="anniu01" src="imagenew/tubiao11.png">
+                            <a href="#box-11" class="a1">摘要提取</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gongneng">
+                <div id="box-1" class="g2-2">
+                    <div class="cixingfenxi0">
+                                <img src="imagenew/biaoti01.png">
+                    </div>
+                   
+                    <div id="stcq2" class="shurukuang01" style="display: block;">
+                        <!-->展示中文关键词<-->
+
+
+
+                    </div>
+                </div>
+
+                <div id="box-2" class="g2-2">
+                        <img class="biaoti" src="imagenew/biaoti02.png">
+                        <a href="javascript:void(0);" style="display:table;">
+                            <img id="tb2" class="wendang00" src="imagenew/tubiaoxg.png">
+                        </a>
+                        <div id="stcq1" class="shurukuang01" style="display: block;">
+                        
+                        </div>
+                </div>
+                <div id="box-3" class="g2-2">
+                    <div class="cixingfenxi0">
+                                <img src="imagenew/biaoti01.png">
+                                <a href="html/fenci-1.html" target="_black">
+                                    <img class="xiayiye" src="imagenew/wendang.png" alt="分词标注简介" title="分词标注简介">
+                                </a>
+                    </div>
+                    <div id="stcq2" class="shurukuang01" style="display: block;">
+                        <br>
+                        <!-->展示中文关键句<-->
+
+
+
+                    </div>
+                </div>
+                <div id="box-4" class="g2-2">
+                    <div class="cixingfenxi0">
+                                <img src="imagenew/biaoti01.png">
+                                <a href="html/fenci-1.html" target="_black">
+                                    <img class="xiayiye" src="imagenew/wendang.png" alt="分词标注简介" title="分词标注简介">
+                                </a>
+                    </div>
+                    <div id="stcq2" class="shurukuang01" style="display: block;">
+                        <br>
+                        <!-->展示YAGO关系图<-->
+                        <div id="tree-container" style="text-align:center">
+                            <div id="footer">
+                                YAGO关系树
+                                <div class="hint">
+                                    yagoName
+                                </div>
+                            </div>
+                    </div>
+
+
+
+                    </div>
+                </div>
+
+                <div id="box-5" class="g2-2">
+                    <div class="cixingfenxi0">
+                                <img src="imagenew/biaoti01.png">
+                                <a href="html/fenci-1.html" target="_black">
+                                    <img class="xiayiye" src="imagenew/wendang.png" alt="分词标注简介" title="分词标注简介">
+                                </a>
+                    </div>
+                    <div id="stcq2" class="shurukuang01" style="display: block;">
+                        <br>
+                        <!-->提供用户反馈<-->
+
+
+
+                    </div>
+                </div>
+
+        </div>
+
+    </div>
+    <div class="di">
+        <div class="caidan">
+            <div class="kuai01">
+                <div class="b1">相关网站</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://www.nlpir.org/" target="_black">NLPIR共享平台</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="http://ictclas.nlpir.org/" target="_black">ICTCLAS分词系统</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="http://www.bigdatabbs.com/" target="_black">大数据论坛</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai02">
+                <div class="b1">资源共享</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://www.bigdatabbs.com/forum.php?mod=forumdisplay&amp;fid=50" target="_black">技术文档</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="https://github.com/NLPIR-team/NLPIR" target="_black">GitHub</a>
+                    </div>
+                    
+                    <div class="b3">
+                        <a href="http://www.bigdatabbs.com/forum.php?mod=forumdisplay&amp;fid=52" target="_black">共享软件</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai02">
+                <div class="b1">关于NLPIR</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://ictclas.nlpir.org/docs" target="_black">NLPIR简介</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai02">
+                <div class="b1">关于我们</div>
+                <div class="b2">
+                    <div class="b3">
+                        <a href="http://ictclas.nlpir.org/contactus" target="_black">联系我们</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kuai03">
+                <div class="b1">微信扫一扫</div>
+            </div>
+            
+            <div class="kuai04">
+                <img src="imagenew/09.jpg" style="width:90px; height:90px;">
+            </div>
+        </div>
+        
+        <div class="fenjie"></div>
+        
+       
+    </div>
+    <div class="row-fluid">
+        <div class="span12">
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/echarts-all.js"></script>
+<!--总体分析饼图-->
+<script src="js/echarts-all.js"></script>
+<script type="text/javascript" src="js/policy.js"></script>
+
+
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="js/d3.layout.cloud.js"></script>
+
+
+
+</body>
+</html>

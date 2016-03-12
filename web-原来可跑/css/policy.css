@@ -1,0 +1,202 @@
+﻿
+#list h1 {
+    margin-bottom: 20px;
+}
+
+.title1 {
+    cursor: pointer;
+}
+
+.title2 {
+    cursor: pointer;
+}
+
+.title3 {
+    cursor: pointer;
+}
+
+.title4 {
+    cursor: pointer;
+}
+
+.title5 {
+    cursor: pointer;
+}
+
+.sub-table1 {
+    display: none;
+}
+
+.sub-table2 {
+    display: none;
+}
+
+.sub-table3 {
+    display: none;
+}
+
+.sub-table4 {
+    display: none;
+}
+
+.sub-table5 {
+    display: none;
+}
+
+#mytable {
+    width: 600px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+
+#mytable th {
+    color: #000;
+    background-color: #ecf4f7;
+}
+
+th {
+    font: 17px "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6px 6px 6px 12px;
+    background: #62A29E;
+    color: #FFFFFF;
+}
+
+/*power by www.winshell.cn*/
+th.nobg {
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px solid #C1DAD7;
+    background: none;
+}   
+
+tr {
+    /*background-color: ;*/
+    color: #325858;
+    background-color: #FFFFFF;
+    font-weight: 500;
+}
+
+tr:nth-child(2n) {
+
+}
+
+/*power by www.winshell.cn*/
+
+th.spec {
+    border-left: 1px solid #C1DAD7;
+    border-top: 0;
+    background: #fff no-repeat;
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+    border-left: 1px solid #C1DAD7;
+    border-top: 0;
+    background: #f5fafa no-repeat;
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    color: #797268;
+}
+
+#pie {
+    width: 700px;
+    height: 400px;
+    margin-top: 242px;
+    margin-bottom: 160px;
+    margin-left: -45px;
+}
+
+#map {
+    width: 700px;
+    height: 700px;
+    top: 20px;
+    position: absolute;
+    /*right:280px;*/
+    left: 700px
+}
+
+#list {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#list h1 {
+    margin-left: 136px;
+}
+
+#happen-list {
+    position: absolute;
+    left: 748px;
+    top: 665px;
+    width: 600px;
+    min-height: 200px;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#care-list {
+    position: absolute;
+    left: 748px;
+    top: 920px;
+    width: 600px;
+    min-height: 200px;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#detail-info {
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    font-family: 'Adobe Heiti Std';
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#detail-info a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#detail-info #title {
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+
+.light {
+    background-color: #ecf4f7;
+    padding-left: 25px;
+}
+
+.deep {
+    background-color: #d5eaef;
+    padding-left: 25px;
+}
+
+/*竖线*/
+#line {
+    left: 683px;
+    top: 110px;
+    position: absolute;
+    background-color: #c3dbd9;
+    width: 1px;
+    height: 1081px;
+}
+
+
+
+

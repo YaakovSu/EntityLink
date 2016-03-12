@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>跨语言实体查询系统</title>
-    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+
+
+<link rel="stylesheet" href="css/styles.css">
+<!-- dndTree -->
+<link href="css/myd3.css" rel='stylesheet' type='text/css' />
+<!-- ciyun -->
+    <link rel="stylesheet" type="text/css" href="css/miaov_style.css"/> 
+        <link href="css/indexnew.css" rel='stylesheet' type='text/css' />
+        <link href="css/default.css" rel="stylesheet" />
+
+            <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link href="css/common.css" rel="stylesheet" />
-    <link href="css/default.css" rel="stylesheet" />
-    <link href="css/policy.css" rel="stylesheet" />
-    <link href="css/layoutit.css" rel='stylesheet' type='text/css' />
-    <link href="css/tanchuang.css" rel='stylesheet' type='text/css' />
-    <link href="css/bootstrap-combined.min.css" rel='stylesheet' type='text/css' />
-    <link href="css/myd3.css" rel='stylesheet' type='text/css' />
-    <link type="text/css" rel="stylesheet" href="css/treeStyle.css"/>
-    <!--<link type="text/css" rel="stylesheet" href="css/treeNode.css"/>-->
 
-    <script src="js/d3.v3.min.js"></script>
-    <!--<script src="js/dndTree.js"></script>-->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/d3.js"></script>
-    <script type="text/javascript" src="js/d3.layout.js"></script>
+      <style media="screen">
+    a { color: #178DB1; }
+  </style>
 
 
+       <script src="irjs/responsive-nav.js"></script>
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+ <script type="text/javascript" src="js/myJs.js"></script>
+ <!-- zhanshi Tree -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/d3.v3.min.js"></script>
+<!-- <script src="js/dndTree.js"></script> -->
 
-
+       <!-- <script type="text/javascript" src="irjs/indexnew.js"></script> -->
+         <script src="irjs/readmore.js"></script>
+        <script src="irjs/readmore.min.js"></script>
 
 </head>
 <body>
@@ -103,43 +110,16 @@
     </script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/default.js"></script>
-    <script src="js/echarts-all.js"></script>
-    <!--<script type="text/javascript" src="js/d3.js"></script>-->
-    <!--<script type="text/javascript" src="js/d3.layout.cloud.js"></script>-->
-    <!--D3标签云-->
-<!--    <script>
-        var fill = d3.scale.category20();
-        d3.layout.cloud().size([700, 400])
-            .words([
-              "教育公平", "小学择校", "农民工子弟", "高考", "教育公平", "高考", "中考",
-            "考研", "青年教师", "科研基金", "上学难", "教育政策", "小学教育", "教育腐败", ].map(function (d) {
-                return { text: d, size: 10 + Math.random() * 60 };
-            }))
-            .padding(5)
-            .rotate(function () { return ~~(Math.random() * 2) * 45; })
-            .font("Impact")
-            .fontSize(function (d) { return d.size; })
-            .on("end", draw)
-            .start();
 
-        function draw(words) {
-            d3.select("#word_cloud").append("svg")
-                .attr("width", 700)
-                .attr("height", 400)
-              .append("g")
-                .attr("transform", "translate(350,200)")
-              .selectAll("text")
-                .data(words)
-              .enter().append("text")
-                .style("font-size", function (d) { return d.size + "px"; })
-                .style("font-family", "Impact")
-                .style("fill", function (d, i) { return fill(i); })
-                .attr("text-anchor", "middle")
-                .attr("transform", function (d) {
-                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-                })
-                .text(function (d) { return d.text; });
-        }
-    </script>-->
+         <script>
+    $("article").readmore({maxHeight: 240});
+  </script>
+
+    <script>
+      var navigation = responsiveNav("foo", {customToggle: ".nav-toggle"});
+    </script>
+    <!-- ciyun -->
+     <script type="text/javascript" src="irjs/miaov.js"></script> 
+
 </body>
 </html>
